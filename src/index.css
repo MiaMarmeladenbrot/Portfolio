@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Nunito;
+  src: url(/font/Nunito-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: Playfair;
+  src: url(/font/PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: Raleway;
+  src: url(/font/Raleway-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(/font/Roboto-Medium.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+html {
+  /* background-color: #828282; */
+  /* background-color: #fdc4357f; */
+  font-family: Nunito;
+}
+
+h1,
+h2 {
+  font-family: Playfair;
+}
+a {
+  font-family: Raleway;
+}
