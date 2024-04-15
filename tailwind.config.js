@@ -9,7 +9,11 @@ export default {
       lightGreyColor: "#828282",
     },
 
-    extend: {},
+    extend: {
+      boxShadow: {
+        "3xl": "0 35px 60px -15px rgba(0, 0, 0, 0.3)",
+      },
+    },
   },
   variants: {
     fill: ["hover", "focus"], // this line does the trick

@@ -42,6 +42,11 @@ h1,
 h2 {
   font-family: Playfair;
 }
+
 a {
   font-family: Raleway;
+}
+
+.active {
+  border-bottom: 1px solid #fdc435;
 }
