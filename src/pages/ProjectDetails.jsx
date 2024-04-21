@@ -15,8 +15,6 @@ const ProjectDetails = () => {
     const find = projects.find((item) => Number(item.id) === Number(id));
     setProjectDetails(find);
   }, [projects]);
-  console.log(projectDetails);
-  //# console.log(projectDetails.skills[0].img);
 
   return (
     <main className="mt-32 mb-20 flex flex-col gap-4 items-center justify-center">
@@ -33,9 +31,26 @@ const ProjectDetails = () => {
         {/* //# Gallerie mit einem Haupt- und mehreren Detailimages */}
 
         <div>
-          <h2 className=" border-brightColor border-b-2 inline-block pb-2 mb-5">
+          <h2 className=" border-brightColor border-b-2 inline-block pb-2 mb-8">
             {projectDetails?.title}
           </h2>
+
+          <div className="mb-5">
+            <a
+              className="border border-brightColor text-brightColor hover:bg-darkColor p-2 rounded-lg mr-3"
+              href={projectDetails?.site}
+            >
+              Live Site
+            </a>
+            <a
+              // className="bg-brightColor hover:border hover:border-black p-2 rounded-lg"
+              className="border border-brightColor text-brightColor hover:text-brightColor hover:bg-darkColor p-2 rounded-lg mr-3"
+              href={projectDetails?.repo}
+            >
+              Repository on GitHub
+            </a>
+          </div>
+
           <h3 className="mb-2">Skills</h3>
           <div className="flex gap-4 mb-6">
             {projectDetails?.skills.map((singleSkill, index) => (
@@ -59,7 +74,9 @@ const ProjectDetails = () => {
               {singleItem}
             </li>
           ))}
-          <h3 className="mb-2">Collaborators:</h3>
+          <h3 className="mb-2">
+            {projectDetails?.collaborators.length > 0 ? "Collaborateurs:" : ""}
+          </h3>
           {projectDetails?.collaborators.map((collaborator, index) => (
             <p className="mb-2" key={index}>
               <a href={collaborator.link}>{collaborator.name}</a>

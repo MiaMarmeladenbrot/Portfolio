@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
-    <section className=" flex items-center bg-[url('/img/hero.png')] bg-no-repeat bg-right pt-52">
-      <article className="pl-20 pb-52 ">
+    <section className=" flex items-center bg-[url('/img/hero.png')] bg-no-repeat bg-right pt-56">
+      <article className="pl-20 pb-44 ">
         {/* bg-[url('/img/hero.png')] bg-no-repeat bg-right  */}
         <h3 className="text-brightColor mb-3">Web Developer</h3>
         <h2>Hey there! </h2>
