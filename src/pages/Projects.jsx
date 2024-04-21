@@ -2,8 +2,8 @@ import projects from "../assets/data/projects.js";
 
 const Projects = () => {
   return (
-    <main className="mt-20 mb-20 flex flex-col gap-4 items-center justify-center">
-      <h2 className="text-2xl border-brightColor border-b-2 inline-block pb-2 mb-5">
+    <main className="mt-32 mb-20 flex flex-col gap-4 items-center justify-center">
+      <h2 className=" border-brightColor border-b-2 inline-block pb-2 mb-5">
         Projects
       </h2>
       {/* <article className="grid grid-cols-3 gap-5"> */}
@@ -20,7 +20,7 @@ const Projects = () => {
               alt={singleProject.title}
             />
             <section className="pr-3 min-w-96">
-              <h2 className="mb-5 text-xl">{singleProject.title}</h2>
+              <h2 className="mb-5">{singleProject.title}</h2>
               <p className="mb-3">
                 created with
                 {/* {singleProject.skills.map((item) => item)} */}
@@ -45,14 +45,14 @@ const Projects = () => {
                 </a>
                 <a
                   // className="bg-brightColor hover:border hover:border-black p-2 rounded-lg"
-                  className="border border-brightColor text-brightColor hover:bg-darkColor p-2 rounded-lg mr-3"
+                  className="border border-brightColor text-brightColor hover:text-brightColor hover:bg-darkColor p-2 rounded-lg mr-3"
                   href={singleProject.repo}
                 >
                   Repository on GitHub
                 </a>
               </div>
               <a
-                className="bg-brightColor hover:text-brightColor hover:bg-darkColor p-2 rounded-lg mr-3"
+                className="bg-brightColor text-[#000000] hover:text-brightColor hover:bg-darkColor p-2 rounded-lg mr-3"
                 href={`/projects/${singleProject.id}`}
               >
                 More Info

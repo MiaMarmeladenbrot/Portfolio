@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className="flex flex-col justify-center items-center gap-2">
+    <footer className="flex flex-col justify-center items-center gap-2 pb-20">
       <article className="flex gap-2 items-center">
         {/* GitHub Icon */}
         <Link to="https://github.com/MiaMarmeladenbrot" target="_blank">
@@ -25,7 +25,7 @@ const Footer = () => {
         {/* Mail Icon */}
         <Link to="" target="_blank">
           <svg
-            className="hover:bg-brightColor rounded-sm "
+            className="hover:bg-brightColor rounded-lg "
             height="20"
             viewBox="0 0 48 37"
             fill="none"

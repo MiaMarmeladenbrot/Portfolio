@@ -6,11 +6,25 @@ const Header = () => {
       <Link to="/">
         <img className="w-10" src="../img/sunflower.png" alt="sunflower" />
       </Link>
-      {/* //# aktive Seite mit gelbem Unterstrich */}
       <nav className="flex gap-5">
-        <NavLink to="/projects">Projects</NavLink>
-        <NavLink to="/books">Books</NavLink>
-        <NavLink to="/about">About</NavLink>
+        <NavLink
+          to="/projects"
+          className={"hover:text-lightGreyColor text-[#000000]"}
+        >
+          Projects
+        </NavLink>
+        <NavLink
+          to="/books"
+          className={"hover:text-lightGreyColor text-[#000000]"}
+        >
+          Books
+        </NavLink>
+        <NavLink
+          to="/about"
+          className={"hover:text-lightGreyColor text-[#000000]"}
+        >
+          About
+        </NavLink>
       </nav>
     </header>
   );

@@ -11,7 +11,7 @@ import Impressum from "./pages/Impressum";
 
 function App() {
   return (
-    <section className="p-4">
+    <>
       <BrowserRouter>
         <Header />
         <Routes>
@@ -24,7 +24,7 @@ function App() {
         </Routes>
         <Footer />
       </BrowserRouter>
-    </section>
+    </>
   );
 }
 

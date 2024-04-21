@@ -41,10 +41,27 @@ html {
 h1,
 h2 {
   font-family: Playfair;
+  font-size: 2rem;
+}
+
+h3 {
+  font-family: Playfair;
+  font-size: 1.5rem;
+}
+
+p,
+li {
+  font-size: 1.2rem;
+  color: #828282;
 }
 
 a {
   font-family: Raleway;
+  color: #fdc435;
+}
+
+a:hover {
+  color: #828282;
 }
 
 .active {
