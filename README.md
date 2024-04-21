@@ -10,3 +10,4 @@
 - Foto
 - Grafiken in guter Quali
 - Impressum
+- media queries

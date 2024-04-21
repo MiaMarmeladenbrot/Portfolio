@@ -23,9 +23,11 @@ const About = () => {
           After pursuing my passion for storytelling as a non-fiction editor, I
           decided to embark on a new path in 2023. Through enrollment in a
           Full-Stack Bootcamp by{" "}
-          <a href="https://www.super-code.de/">SuperCode</a> and extensive
-          autodidactic learning I turned my love for creative thinking and
-          problem-solving into a career as a front-end developer.
+          <a href="https://www.super-code.de/" target="_blank">
+            SuperCode
+          </a>{" "}
+          and extensive autodidactic learning I turned my love for creative
+          thinking and problem-solving into a career as a front-end developer.
         </p>
         <p className=" mb-5 ">
           While this journey sometimes felt like a rollercoaster ride, I am

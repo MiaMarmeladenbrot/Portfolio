@@ -59,7 +59,10 @@ const Footer = () => {
           </svg>
         </Link>
       </article>
-      <Link to="/impressum" className="text-lightGreyColor">
+      <Link
+        to="/impressum"
+        className="text-lightGreyColor hover:text-brightColor"
+      >
         Impressum
       </Link>
     </footer>

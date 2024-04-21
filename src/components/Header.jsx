@@ -2,7 +2,7 @@ import { Link, NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
-    <header className="p-4 flex justify-between items-center fixed top-0 left-0 right-0 bg-transparentBrightColor">
+    <header className="p-4 flex justify-between items-center fixed top-0 left-0 right-0 ">
       <Link to="/">
         <img className="w-10" src="../img/sunflower.png" alt="sunflower" />
       </Link>
