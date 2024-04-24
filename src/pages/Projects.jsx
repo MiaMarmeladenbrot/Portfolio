@@ -12,13 +12,11 @@ const Projects = () => {
         {/* flex flex-wrap items-center justify-center gap-11 */}
         {projects.map((singleProject, index) => (
           <Link
+            key={index}
             to={`/projects/${singleProject.id}`}
             className="text-[#000000] hover:text-[#000000]"
           >
-            <div
-              key={index}
-              className="flex flex-col gap-4 items-center justify-center rounded-lg overflow-hidden shadow-[0px_0px_30px_-10px_rgba(0,0,0,0.3)] hover:shadow-[0px_0px_30px_-10px_rgba(0,0,0,1)] w-80"
-            >
+            <div className="flex flex-col gap-4 items-center justify-center rounded-lg overflow-hidden shadow-[0px_0px_30px_-10px_rgba(0,0,0,0.3)] hover:shadow-[0px_0px_30px_-10px_rgba(0,0,0,1)] w-80">
               <img
                 className="object-cover	"
                 src={singleProject.image}
