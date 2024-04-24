@@ -199,11 +199,48 @@ const projects = [
     ],
     detailImages: ["/img/Projects/e-shop/e-shop.png"],
   },
+  {
+    id: 4,
+    title: "Kunterbunt",
+    skills: [
+      {
+        img: "/img/Logos/js.png",
+        alt: "Javascript",
+      },
+      {
+        img: "/img/Logos/html5.png",
+
+        alt: "HTML5",
+      },
+      {
+        img: "/img/Logos/css3.png",
+
+        alt: "CSS3",
+      },
+    ],
+    features: [],
+    image: "/img/Projects/kunterbunt/kunterbunt-home.png",
+    site: "https://www.kunterbunt-friesoythe.com/",
+    repo: "https://github.com/MiaMarmeladenbrot/kunterbunt",
+    collaborators: [],
+    purposes: ["Website for child's daycare"],
+    builtwith: [
+      "Mobile Design",
+      "Animated Illustration",
+      "Flexbox Layout",
+      "React",
+      "React Router DOM",
+    ],
+    detailImages: [
+      "/img/Projects/kunterbunt/kunterbunt-about.png",
+      "/img/Projects/kunterbunt/kunterbunt-einrichtung.png",
+    ],
+  },
 
   // Architect Portfolio
   // Tailwind Project
   // Art Junkies
   // Schere, Stein, Papier
-  // Pia
+  // Kunterbunt
 ];
 export default projects;
