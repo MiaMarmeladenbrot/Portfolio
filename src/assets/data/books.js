@@ -1,5 +1,10 @@
 export const books = [
   {
+    title: "Freiheit, Wind und Mut",
+    img: "/img/Books/Benjatschek.jpg",
+    link: "https://www.piper.de/buecher/freiheit-wind-und-mut-isbn-978-3-89029-588-6",
+  },
+  {
     title: "Life Rebel",
     img: "/img/Books/Eisenring.jpeg",
     link: "https://www.piper.de/buecher/life-rebel-isbn-978-3-492-06465-1",
@@ -104,5 +109,35 @@ export const books = [
     title: "Wo die wilden Frauen wohnen",
     img: "/img/Books/Siegel.jpeg",
     link: "https://www.piper.de/buecher/wo-die-wilden-frauen-wohnen-isbn-978-3-492-40654-3",
+  },
+  {
+    title: "Zwischen ewigem Sommer und tiefster Nacht",
+    img: "/img/Books/Olderdissen.jpeg",
+    link: "https://www.piper.de/buecher/zwischen-ewigem-sommer-und-tiefster-nacht-isbn-978-3-89029-577-0",
+  },
+  {
+    title: "Meine wilden Inseln",
+    img: "/img/Books/Mazuhn.jpeg",
+    link: "https://www.piper.de/buecher/meine-wilden-inseln-isbn-978-3-89029-558-9",
+  },
+  {
+    title: "Auf die Füße, fertig, los!",
+    img: "/img/Books/Streets.jpg",
+    link: "https://www.piper.de/buecher/auf-die-fuesse-fertig-los-isbn-978-3-492-40668-0",
+  },
+  {
+    title: "Denali",
+    img: "/img/Books/Moon.jpeg",
+    link: "https://www.piper.de/buecher/denali-isbn-978-3-89029-511-4",
+  },
+  {
+    title: "Wildes Kasachstan",
+    img: "/img/Books/Rohrbach.jpeg",
+    link: "https://www.piper.de/buecher/wildes-kasachstan-isbn-978-3-492-40646-8",
+  },
+  {
+    title: "Bulli!",
+    img: "/img/Books/Kreutzkamp.jpeg",
+    link: "https://www.piper.de/buecher/bulli-freiheit-auf-vier-raedern-isbn-978-3-492-40660-4",
   },
 ];

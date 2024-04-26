@@ -1,6 +1,53 @@
+// # IDs final vergeben und checken
+
 const projects = [
+  // Movie DB Fullstack
   {
     id: 0,
+    title: "Fullstack Movie Database",
+    skills: [
+      {
+        img: "/img/Logos/express.png",
+        alt: "Expressjs",
+      },
+      {
+        img: "/img/Logos/mongodb.png",
+        alt: "mongodb",
+      },
+      {
+        img: "/img/Logos/react.png",
+        alt: "React",
+      },
+      {
+        img: "/img/Logos/html5.png",
+        alt: "HTML5",
+      },
+      {
+        img: "/img/Logos/css3.png",
+        alt: "CSS3",
+      },
+    ],
+    image: "/img/Projects/moviedb/moviedb.jpg",
+    //# site: "https://e-shop-hmaz.onrender.com/",
+    //# repo: "https://github.com/MiaMarmeladenbrot/E-Shop",
+    collaborators: [],
+    purposes: [
+      "Create database for movie and favorite movies data",
+      "Show all movies from the database",
+      "Save new movies in the database",
+      "Edit a movie",
+      "Search for movie titles",
+      "Save a movie to favorite movies",
+      "Show all favorite movies",
+      "View the details of each movie",
+      "Show animated loadingscreen",
+    ],
+
+    detailImages: ["/img/Projects/moviedb/moviedb-home.png"],
+  },
+  // E-Shop
+  {
+    id: 1,
     title: "Mobile E-Shop App",
     skills: [
       {
@@ -38,22 +85,14 @@ const projects = [
       "Filter by category, price and/or brand",
       "Save your favorites for later use",
       "View the details of each individual item",
+      "Show animated loadingscreen",
     ],
-    builtwith: [
-      "Mobile Design",
-      "Grid and Flexbox Layout",
-      "React",
-      "React Router DOM",
-      "Fetch API",
-      "FakeStore API",
-      "Dark Mode",
-      "Splash Screen",
-      "Save Favorites with LocalStorage",
-    ],
+
     detailImages: ["/img/Projects/e-shop/e-shop-screenshot.png"],
   },
+  // PokeDex
   {
-    id: 1,
+    id: 2,
     title: "PokeDex",
     skills: [
       {
@@ -86,26 +125,19 @@ const projects = [
       },
     ],
     purposes: [
+      "Responsive Design",
       "Search the store for products, categories or brands",
       "Filter by category, price and/or brand",
       "Save your favorites for later use",
       "View the details of each individual item",
+      "Show animated loadingscreen",
     ],
-    builtwith: [
-      "Mobile Design",
-      "Grid and Flexbox Layout",
-      "React",
-      "React Router DOM",
-      "Fetch API",
-      "FakeStore API",
-      "Dark Mode",
-      "Splash Screen",
-      "Save Favorites with LocalStorage",
-    ],
+
     detailImages: ["/img/Projects/pokedex/pokedex-home.png"],
   },
+  // Tasty
   {
-    id: 2,
+    id: 3,
     title: "Tasty App",
     skills: [
       {
@@ -141,23 +173,18 @@ const projects = [
     ],
     purposes: [
       "Create a recipe app",
-      "User can search recipes by country and category",
-      "User can search for recipes by name",
-      "User receives detailed page of the recipe with ingredients, quantities and instructions",
-      "User receives random recipe suggestions",
+      "Search recipes by country and category",
+      "Search for recipes by name",
+      "Show detailed page of the recipe with ingredients, quantities and instructions",
+      "Show random recipe suggestions",
+      "Show animated loadingscreen",
     ],
-    builtwith: [
-      "Mobile Design",
-      "Grid and Flexbox Layout",
-      "React",
-      "React Router DOM",
-      "Fetch API",
-      "Splash Screen",
-    ],
+
     detailImages: ["/img/Projects//img/Projects/e-shop/e-shop.png"],
   },
+  // Wanderwetter
   {
-    id: 3,
+    id: 4,
     title: "Wanderwetter",
     skills: [
       {
@@ -181,26 +208,17 @@ const projects = [
     repo: "https://github.com/MiaMarmeladenbrot/Wanderwetter",
     collaborators: [],
     purposes: [
-      "Search the store for products, categories or brands",
-      "Filter by category, price and/or brand",
-      "Save your favorites for later use",
-      "View the details of each individual item",
+      "Responsive Design",
+      "Search for weather data at specified location",
+      "Get an advice depending on the weather data",
+      "Show different image depending on advice",
     ],
-    builtwith: [
-      "Mobile Design",
-      "Grid and Flexbox Layout",
-      "React",
-      "React Router DOM",
-      "Fetch API",
-      "FakeStore API",
-      "Dark Mode",
-      "Splash Screen",
-      "Save Favorites with LocalStorage",
-    ],
+
     detailImages: ["/img/Projects/wanderwetter/wanderwetter-search.png"],
   },
+  // Kunterbunt
   {
-    id: 4,
+    id: 5,
     title: "Kunterbunt",
     skills: [
       {
@@ -223,14 +241,13 @@ const projects = [
     site: "https://www.kunterbunt-friesoythe.com/",
     repo: "https://github.com/MiaMarmeladenbrot/kunterbunt",
     collaborators: [],
-    purposes: ["Website for child's daycare"],
-    builtwith: [
-      "Mobile Design",
-      "Animated Illustration",
-      "Flexbox Layout",
-      "React",
-      "React Router DOM",
+    purposes: [
+      "Responsive Design",
+      "Website for child's daycare",
+      "Show information about the facility, the concept and the educator",
+      "Show contact information",
     ],
+
     detailImages: [
       "/img/Projects/kunterbunt/kunterbunt-home.png",
       "/img/Projects/kunterbunt/kunterbunt-einrichtung.png",
@@ -244,6 +261,5 @@ const projects = [
   // Tailwind Project
   // Art Junkies
   // Schere, Stein, Papier
-  // Kunterbunt
 ];
 export default projects;

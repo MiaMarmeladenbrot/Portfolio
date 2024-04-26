@@ -68,12 +68,7 @@ const ProjectDetails = () => {
               {singlePurpose}
             </li>
           ))}
-          <h3 className="mb-2 mt-2">Build with</h3>
-          {projectDetails?.builtwith.map((singleItem, index) => (
-            <li className="mb-2" key={index}>
-              {singleItem}
-            </li>
-          ))}
+
           <h3 className="mb-2">
             {projectDetails?.collaborators.length > 0 ? "Collaborateurs:" : ""}
           </h3>
