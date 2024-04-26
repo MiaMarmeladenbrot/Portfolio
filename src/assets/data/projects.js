@@ -16,7 +16,7 @@ const projects = [
         alt: "CSS3",
       },
     ],
-    image: "/img/Projects/e-shop/e-shop.png",
+    image: "/img/Projects/e-shop/e-shop.jpg",
     site: "https://e-shop-hmaz.onrender.com/",
     repo: "https://github.com/MiaMarmeladenbrot/E-Shop",
     collaborators: [
@@ -72,7 +72,7 @@ const projects = [
       },
     ],
     features: ["React Router DOM", "Splash Screen", "Fetch API"],
-    image: "/img/Projects/pokedex/pokedex.png",
+    image: "/img/Projects/pokedex/pokedex.jpg",
     site: "https://poke-dex-eta-eight.vercel.app/",
     repo: "https://github.com/MiaMarmeladenbrot/PokeDex",
     collaborators: [
@@ -102,7 +102,7 @@ const projects = [
       "Splash Screen",
       "Save Favorites with LocalStorage",
     ],
-    detailImages: ["/img/Projects/pokedex/pokedex.png"],
+    detailImages: ["/img/Projects/pokedex/pokedex-home.png"],
   },
   {
     id: 2,
@@ -122,7 +122,7 @@ const projects = [
       },
     ],
     features: [],
-    image: "/img/Projects/tasty/tasty0.png",
+    image: "/img/Projects/tasty/tasty.png",
     site: "https://tasty-app-nine.vercel.app/",
     repo: "https://github.com/MiaMarmeladenbrot/Tasty-App?tab=readme-ov-file",
     collaborators: [
@@ -176,7 +176,7 @@ const projects = [
       },
     ],
     features: [],
-    image: "/img/Projects/e-shop/e-shop.png",
+    image: "/img/Projects/wanderwetter/wanderwetter.jpg",
     site: "https://wanderwetter.vercel.app/",
     repo: "https://github.com/MiaMarmeladenbrot/Wanderwetter",
     collaborators: [],
@@ -197,7 +197,7 @@ const projects = [
       "Splash Screen",
       "Save Favorites with LocalStorage",
     ],
-    detailImages: ["/img/Projects/e-shop/e-shop.png"],
+    detailImages: ["/img/Projects/wanderwetter/wanderwetter-search.png"],
   },
   {
     id: 4,
@@ -219,7 +219,7 @@ const projects = [
       },
     ],
     features: [],
-    image: "/img/Projects/kunterbunt/kunterbunt-home.png",
+    image: "/img/Projects/kunterbunt/kunterbunt.jpg",
     site: "https://www.kunterbunt-friesoythe.com/",
     repo: "https://github.com/MiaMarmeladenbrot/kunterbunt",
     collaborators: [],
@@ -232,8 +232,11 @@ const projects = [
       "React Router DOM",
     ],
     detailImages: [
-      "/img/Projects/kunterbunt/kunterbunt-about.png",
+      "/img/Projects/kunterbunt/kunterbunt-home.png",
       "/img/Projects/kunterbunt/kunterbunt-einrichtung.png",
+      "/img/Projects/kunterbunt/kunterbunt-konzept.png",
+      "/img/Projects/kunterbunt/kunterbunt-about.png",
+      "/img/Projects/kunterbunt/kunterbunt-contact.png",
     ],
   },
 

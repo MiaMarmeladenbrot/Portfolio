@@ -24,7 +24,7 @@ const ProjectDetails = () => {
         <div>
           <img
             className="max-w-xl"
-            src={projectDetails?.image}
+            src={projectDetails?.detailImages[0]}
             alt={projectDetails?.title}
           />
         </div>

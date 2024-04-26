@@ -2,6 +2,7 @@
 
 # ToDos
 
+- Hauptbilder anlegen, mit entweder Phone- oder MacBook-Screenshot eingebaut ins Bild
 - alle Bücher Daten eintragen
 - Project Card bauen, slider?
 - Project Detailpage
