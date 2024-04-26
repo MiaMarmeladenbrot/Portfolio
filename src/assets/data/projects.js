@@ -1,11 +1,15 @@
 // # IDs final vergeben und checken
 
 const projects = [
-  // Movie DB Fullstack
+  // 0 Movie DB Fullstack
   {
     id: 0,
     title: "Fullstack Movie Database",
     skills: [
+      {
+        img: "/img/Logos/nodejs.png",
+        alt: "Nodejs",
+      },
       {
         img: "/img/Logos/express.png",
         alt: "Expressjs",
@@ -29,7 +33,7 @@ const projects = [
     ],
     image: "/img/Projects/moviedb/moviedb.jpg",
     //# site: "https://e-shop-hmaz.onrender.com/",
-    //# repo: "https://github.com/MiaMarmeladenbrot/E-Shop",
+    repo: "https://github.com/MiaMarmeladenbrot/MovieDbMERN",
     collaborators: [],
     purposes: [
       "Create database for movie and favorite movies data",
@@ -45,7 +49,7 @@ const projects = [
 
     detailImages: ["/img/Projects/moviedb/moviedb-home.png"],
   },
-  // E-Shop
+  // 1 E-Shop
   {
     id: 1,
     title: "Mobile E-Shop App",
@@ -90,7 +94,7 @@ const projects = [
 
     detailImages: ["/img/Projects/e-shop/e-shop-screenshot.png"],
   },
-  // PokeDex
+  // 2 PokeDex
   {
     id: 2,
     title: "PokeDex",
@@ -135,7 +139,7 @@ const projects = [
 
     detailImages: ["/img/Projects/pokedex/pokedex-home.png"],
   },
-  // Tasty
+  // 3 Tasty
   {
     id: 3,
     title: "Tasty App",
@@ -182,7 +186,7 @@ const projects = [
 
     detailImages: ["/img/Projects//img/Projects/e-shop/e-shop.png"],
   },
-  // Wanderwetter
+  // 4 Wanderwetter
   {
     id: 4,
     title: "Wanderwetter",
@@ -216,7 +220,7 @@ const projects = [
 
     detailImages: ["/img/Projects/wanderwetter/wanderwetter-search.png"],
   },
-  // Kunterbunt
+  // 5 Kunterbunt
   {
     id: 5,
     title: "Kunterbunt",
@@ -256,10 +260,181 @@ const projects = [
       "/img/Projects/kunterbunt/kunterbunt-contact.png",
     ],
   },
+  // 6 Tailwind Project Furniture
+  {
+    id: 6,
+    title: "Furniture",
+    skills: [
+      {
+        img: "/img/Logos/react.png",
+        alt: "React",
+      },
 
-  // Architect Portfolio
-  // Tailwind Project
-  // Art Junkies
-  // Schere, Stein, Papier
+      {
+        img: "/img/Logos/html5.png",
+
+        alt: "HTML5",
+      },
+      {
+        img: "/img/Logos/css3.png",
+
+        alt: "CSS3",
+      },
+      {
+        img: "/img/Logos/tailwind.png",
+        alt: "Tailwind",
+      },
+    ],
+    features: [],
+    image: "/img/Projects/furniture-tailwind/furniture-tailwind.jpg",
+    site: "https://tailwind-layout-theta.vercel.app/",
+    repo: "https://github.com/MiaMarmeladenbrot/Tailwind-Layout",
+    collaborators: [],
+    purposes: [
+      "first tailwind project",
+      "Website for furniture store",
+      "Sign-in/Login Pop-ups",
+    ],
+
+    detailImages: ["/img/Projects/furniture-tailwind/furniture-tailwind.png"],
+  },
+  // 7 Architect Portfolio
+  {
+    id: 7,
+    title: "Architect Portfolio",
+    skills: [
+      {
+        img: "/img/Logos/react.png",
+        alt: "React",
+      },
+      {
+        img: "/img/Logos/html5.png",
+        alt: "HTML5",
+      },
+      {
+        img: "/img/Logos/css3.png",
+        alt: "CSS3",
+      },
+    ],
+    features: ["React Router DOM", "Splash Screen", "Fetch API"],
+    image: "/img/Projects/architect-portfolio/architect-portfolio.jpg",
+    site: "https://architect-portfolio-sage.vercel.app/",
+    repo: "https://github.com/MiaMarmeladenbrot/Architect-Portfolio",
+    collaborators: [],
+    purposes: ["Show animated loadingscreen", "Dark-Light-Mode"],
+
+    detailImages: [
+      "/img/Projects/architect-portfolio/architect-portfolio-light.png",
+      "/img/Projects/architect-portfolio/architect-portfolio-dark.png",
+    ],
+  },
+  // 8 Art Junkies
+  {
+    id: 8,
+    title: "Art Junkies",
+    skills: [
+      {
+        img: "/img/Logos/js.png",
+        alt: "Javascript",
+      },
+      {
+        img: "/img/Logos/html5.png",
+
+        alt: "HTML5",
+      },
+      {
+        img: "/img/Logos/css3.png",
+
+        alt: "CSS3",
+      },
+    ],
+    features: [],
+    image: "/img/Projects/artjunkies/artjunkies.jpg",
+    site: "https://miamarmeladenbrot.github.io/ArtJunkies/index.html",
+    repo: "https://github.com/MiaMarmeladenbrot/ArtJunkies",
+    collaborators: [],
+    purposes: [
+      "Responsive Design",
+      "Search for weather data at specified location",
+      "Get an advice depending on the weather data",
+      "Show different image depending on advice",
+    ],
+
+    detailImages: ["/img/Projects/artjunkies/artjunkies-home.png"],
+  },
+  // 9 Schere, Stein, Papier
+  {
+    id: 9,
+    title: "Rock Paper Scissors",
+    skills: [
+      {
+        img: "/img/Logos/js.png",
+        alt: "Javascript",
+      },
+      {
+        img: "/img/Logos/html5.png",
+
+        alt: "HTML5",
+      },
+      {
+        img: "/img/Logos/css3.png",
+
+        alt: "CSS3",
+      },
+    ],
+    features: [],
+    image: "/img/Projects/rps/rps.jpg",
+    site: "https://miamarmeladenbrot.github.io/Rock-Paper-Scissors/",
+    repo: "https://github.com/MiaMarmeladenbrot/Rock-Paper-Scissors",
+    collaborators: [],
+    purposes: [
+      "Responsive Design",
+      "Play Rock Paper Scissors",
+      "Show winner/loser",
+      "Show best out of five as final winner",
+    ],
+
+    detailImages: [
+      "/img/Projects/rps/rps-m-start.png",
+      "/img/Projects/rps/rps-d-lost.png",
+      "/img/Projects/rps/rps-t-won.png",
+    ],
+  },
+  // 10 Managing Project
+  {
+    id: 10,
+    title: "Managing Business",
+    skills: [
+      {
+        img: "/img/Logos/html5.png",
+
+        alt: "HTML5",
+      },
+      {
+        img: "/img/Logos/css3.png",
+
+        alt: "CSS3",
+      },
+    ],
+    features: [],
+    image: "/img/Projects/managing/managing.jpg",
+    site: "https://miamarmeladenbrot.github.io/supercode-project-managing-business/",
+    repo: "https://github.com/MiaMarmeladenbrot/supercode-project-managing-business?tab=readme-ov-file",
+    collaborators: [],
+    purposes: [
+      "Responsive Design",
+      "Recreate the figma-design as exact as possible",
+    ],
+
+    detailImages: [
+      "/img/Projects/managing/managing-d.png",
+      "/img/Projects/managing/managing-t.png",
+      "/img/Projects/managing/managing-m.png",
+    ],
+  },
+  // Headphone Project
+  // Newspaper
+  // The Design Project
+  // Design Critique
 ];
 export default projects;

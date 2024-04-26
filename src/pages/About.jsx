@@ -21,20 +21,20 @@ const About = () => {
         </h2>
         <p className="mb-5 ">
           After pursuing my passion for storytelling as a non-fiction editor, I
-          decided to embark on a new path in 2023. Through enrollment in a
-          Full-Stack Bootcamp by{" "}
+          decided to embark on a new path. Through enrollment in a Full-Stack
+          Bootcamp by{" "}
           <a href="https://www.super-code.de/" target="_blank">
             SuperCode
           </a>{" "}
           and extensive autodidactic learning I turned my love for creative
-          thinking and problem-solving into a career as a front-end developer.
+          thinking and problem-solving into a career as a developer.
         </p>
         <p className=" mb-5 ">
           While this journey sometimes felt like a rollercoaster ride, I am
           incredibly grateful that I started it. As someone inherently curious
-          and eager to learn, experiencing the impressive learning curve over
-          the past months has been amazing. I love that I am constantly
-          progressing and expanding my skill set.
+          and eager to learn, experiencing the impressive learning curve has
+          been amazing. I love that I am constantly progressing and expanding my
+          skill set.
         </p>
       </section>
     </main>

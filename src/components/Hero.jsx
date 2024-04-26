@@ -5,12 +5,11 @@ const Hero = () => {
     <section className=" flex items-center bg-[url('/img/hero.png')] bg-no-repeat bg-right pt-60">
       <article className="pl-20 pb-40 ">
         {/* bg-[url('/img/hero.png')] bg-no-repeat bg-right  */}
-        <h3 className="text-brightColor mb-3">Web Developer</h3>
-        <h2>Hey there! </h2>
-        <h2 className=" mb-6">My name is Mia</h2>
+        {/* <h3 className="text-brightColor mb-3">Web Developer</h3> */}
+        <h2 className="text-brightColor">Hey there! </h2>
+        <h2 className="text-brightColor mb-6">My name is Mia</h2>
         <p className="mb-8 max-w-[40ch]">
-          I’m a passionate front-end developer, always looking for new
-          challenges.
+          I’m a passionate developer, always looking for new challenges.
         </p>
 
         {/* Social Icons Container */}

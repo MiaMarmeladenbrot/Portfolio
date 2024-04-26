@@ -2,12 +2,25 @@
 
 # ToDos
 
-- Hauptbilder anlegen, mit entweder Phone- oder MacBook-Screenshot eingebaut ins Bild
+- Skills ändern zu TechStack? Nur Logos anzeigen?
 - Project Card bauen, slider?
-- Project Detailpage
-- Detailfotos Galerie
-- Projects Übersicht
-- About Text
+
+  https://www.alpaycelik.dev/#projects
+
+  https://github.com/AlpayC/portfolio_site/blob/main/src/components/ProjectSlider.tsx
+
+  https://swiperjs.com/element
+
+  import { Swiper, SwiperSlide } from "swiper/react";
+  import { Autoplay, EffectCards, Pagination } from "swiper/modules";
+
+====
+
+https://www.npmjs.com/package/react-awesome-slider
+
+https://react-slick.neostack.com/
+
+- Project Detailpage Galerie
 - Foto
 - Grafiken in guter Quali
 - Impressum

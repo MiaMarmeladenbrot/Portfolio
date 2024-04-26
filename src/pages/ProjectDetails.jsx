@@ -35,10 +35,11 @@ const ProjectDetails = () => {
             {projectDetails?.title}
           </h2>
 
-          <div className="mb-5">
+          <div className="mb-8">
             <a
-              className="border border-brightColor text-brightColor hover:bg-darkColor p-2 rounded-lg mr-3"
+              className="border border-brightColor text-brightColor hover:text-brightColor hover:bg-darkColor p-2 rounded-lg mr-3"
               href={projectDetails?.site}
+              target="_blank"
             >
               Live Site
             </a>
@@ -46,13 +47,14 @@ const ProjectDetails = () => {
               // className="bg-brightColor hover:border hover:border-black p-2 rounded-lg"
               className="border border-brightColor text-brightColor hover:text-brightColor hover:bg-darkColor p-2 rounded-lg mr-3"
               href={projectDetails?.repo}
+              target="_blank"
             >
               Repository on GitHub
             </a>
           </div>
 
-          <h3 className="mb-2">Skills</h3>
-          <div className="flex gap-4 mb-6">
+          {/* <h3 className="mb-2">Skills</h3> */}
+          <div className="flex gap-4 mb-8 flex-wrap">
             {projectDetails?.skills.map((singleSkill, index) => (
               <img
                 className="w-20"
@@ -62,7 +64,7 @@ const ProjectDetails = () => {
               />
             ))}
           </div>
-          <h3 className="mb-2">Purposes</h3>
+          {/* <h3 className="mb-2">Purposes</h3> */}
           {projectDetails?.purposes.map((singlePurpose, index) => (
             <li className="mb-2" key={index}>
               {singlePurpose}
@@ -74,7 +76,9 @@ const ProjectDetails = () => {
           </h3>
           {projectDetails?.collaborators.map((collaborator, index) => (
             <p className="mb-2" key={index}>
-              <a href={collaborator.link}>{collaborator.name}</a>
+              <a href={collaborator.link} target="_blank">
+                {collaborator.name}
+              </a>
             </p>
           ))}
         </div>
