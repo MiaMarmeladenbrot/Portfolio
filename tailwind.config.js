@@ -7,6 +7,7 @@ export default {
       brightColor: "#FDC435",
       transparentBrightColor: "#fdc4357f",
       lightGreyColor: "#828282",
+      whiteColor: "#FFFFFF",
     },
 
     extend: {
