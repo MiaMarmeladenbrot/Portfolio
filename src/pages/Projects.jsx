@@ -16,13 +16,13 @@ const Projects = () => {
             to={`/projects/${singleProject.id}`}
             className="text-[#000000] hover:text-[#000000]"
           >
-            <div className="flex flex-col gap-4 items-center justify-center rounded-lg overflow-hidden shadow-[0px_0px_30px_-10px_rgba(0,0,0,0.3)] hover:shadow-[0px_0px_30px_-10px_rgba(0,0,0,1)] w-80">
+            <div className="flex flex-col gap-4 justify-center rounded-lg overflow-hidden shadow-[0px_0px_30px_-10px_rgba(0,0,0,0.3)] hover:shadow-[0px_0px_30px_-10px_rgba(0,0,0,1)] w-80">
               <img
                 className="object-cover	"
                 src={singleProject.image}
                 alt={singleProject.title}
               />
-              <section className="p-2">
+              <section className="p-4">
                 <h3 className="mb-5">{singleProject.title}</h3>
                 <p className="mb-3">
                   {/* {singleProject.skills.map((item) => item)} */}

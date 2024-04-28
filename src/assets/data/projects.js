@@ -1,9 +1,39 @@
 // # IDs final vergeben und checken
 
 const projects = [
-  // 0 Movie DB Fullstack
+  // 11 Portfolio
   {
-    id: 0,
+    id: 11,
+    title: "Portfolio",
+    skills: [
+      {
+        img: "/img/Logos/react.png",
+        alt: "React",
+      },
+      {
+        img: "/img/Logos/html5.png",
+        alt: "HTML5",
+      },
+      {
+        img: "/img/Logos/css3.png",
+        alt: "CSS3",
+      },
+    ],
+    image: "/img/Projects/portfolio/portfolio.png",
+    site: "https://portfolio-three-lime-47.vercel.app/",
+    repo: "https://github.com/MiaMarmeladenbrot/Portfolio",
+    collaborators: [],
+    purposes: [
+      "Design a portfolio website with project selection, about- and contact-information",
+      "Responsive design",
+      "Sliding cards with react swiper",
+    ],
+
+    detailImages: ["/img/Projects/portfolio/portfolio-d-home.png"],
+  },
+  // 10 Movie DB Fullstack
+  {
+    id: 10,
     title: "Fullstack Movie Database",
     skills: [
       {
@@ -49,9 +79,9 @@ const projects = [
 
     detailImages: ["/img/Projects/moviedb/moviedb-home.png"],
   },
-  // 1 E-Shop
+  // 9 E-Shop
   {
-    id: 1,
+    id: 9,
     title: "Mobile E-Shop App",
     skills: [
       {
@@ -94,9 +124,9 @@ const projects = [
 
     detailImages: ["/img/Projects/e-shop/e-shop-screenshot.png"],
   },
-  // 2 PokeDex
+  // 8 PokeDex
   {
-    id: 2,
+    id: 8,
     title: "PokeDex",
     skills: [
       {
@@ -139,9 +169,9 @@ const projects = [
 
     detailImages: ["/img/Projects/pokedex/pokedex-home.png"],
   },
-  // 3 Tasty
+  // 7 Tasty
   {
-    id: 3,
+    id: 7,
     title: "Tasty App",
     skills: [
       {
@@ -186,9 +216,9 @@ const projects = [
 
     detailImages: ["/img/Projects//img/Projects/e-shop/e-shop.png"],
   },
-  // 4 Wanderwetter
+  // 6 Wanderwetter
   {
-    id: 4,
+    id: 6,
     title: "Wanderwetter",
     skills: [
       {
@@ -260,9 +290,9 @@ const projects = [
       "/img/Projects/kunterbunt/kunterbunt-contact.png",
     ],
   },
-  // 6 Tailwind Project Furniture
+  // 4 Tailwind Project Furniture
   {
-    id: 6,
+    id: 4,
     title: "Furniture",
     skills: [
       {
@@ -298,9 +328,9 @@ const projects = [
 
     detailImages: ["/img/Projects/furniture-tailwind/furniture-tailwind.png"],
   },
-  // 7 Architect Portfolio
+  // 3 Architect Portfolio
   {
-    id: 7,
+    id: 3,
     title: "Architect Portfolio",
     skills: [
       {
@@ -328,9 +358,9 @@ const projects = [
       "/img/Projects/architect-portfolio/architect-portfolio-dark.png",
     ],
   },
-  // 8 Art Junkies
+  // 2 Art Junkies
   {
-    id: 8,
+    id: 2,
     title: "Art Junkies",
     skills: [
       {
@@ -362,9 +392,9 @@ const projects = [
 
     detailImages: ["/img/Projects/artjunkies/artjunkies-home.png"],
   },
-  // 9 Schere, Stein, Papier
+  // 1 Schere, Stein, Papier
   {
-    id: 9,
+    id: 1,
     title: "Rock Paper Scissors",
     skills: [
       {
@@ -400,9 +430,9 @@ const projects = [
       "/img/Projects/rps/rps-t-won.png",
     ],
   },
-  // 10 Managing Project
+  // 0 Managing Project
   {
-    id: 10,
+    id: 0,
     title: "Managing Business",
     skills: [
       {

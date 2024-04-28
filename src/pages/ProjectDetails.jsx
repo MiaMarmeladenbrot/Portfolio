@@ -28,7 +28,7 @@ const ProjectDetails = () => {
             alt={projectDetails?.title}
           />
         </div>
-        {/* //# Gallerie mit einem Haupt- und mehreren Detailimages */}
+        {/* //# Galerie mit einem Haupt- und mehreren Detailimages */}
 
         <div>
           <h2 className=" border-brightColor border-b-2 inline-block pb-2 mb-8">
@@ -64,9 +64,10 @@ const ProjectDetails = () => {
               />
             ))}
           </div>
+
           {/* <h3 className="mb-2">Purposes</h3> */}
           {projectDetails?.purposes.map((singlePurpose, index) => (
-            <li className="mb-2" key={index}>
+            <li className="mb-2 max-w-[50ch]" key={index}>
               {singlePurpose}
             </li>
           ))}
