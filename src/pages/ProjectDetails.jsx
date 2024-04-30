@@ -20,9 +20,10 @@ const ProjectDetails = () => {
     <main className="mt-32 mb-20 flex flex-col gap-4 items-center justify-center">
       <BackButton />
 
-      <article className="flex gap-20">
+      <article className="flex justify-center gap-20">
         <div>
           <img
+            // className="w-[500px]"
             className="max-w-xl"
             src={projectDetails?.detailImages[0]}
             alt={projectDetails?.title}
@@ -53,7 +54,7 @@ const ProjectDetails = () => {
             </a>
           </div>
 
-          {/* <h3 className="mb-2">Skills</h3> */}
+          {/* Skills Images */}
           <div className="flex gap-4 mb-8 flex-wrap">
             {projectDetails?.skills.map((singleSkill, index) => (
               <img
@@ -65,9 +66,9 @@ const ProjectDetails = () => {
             ))}
           </div>
 
-          {/* <h3 className="mb-2">Purposes</h3> */}
+          {/* Purposes Liste */}
           {projectDetails?.purposes.map((singlePurpose, index) => (
-            <li className="mb-2 max-w-[50ch]" key={index}>
+            <li className="mb-2 max-w-[40ch]" key={index}>
               {singlePurpose}
             </li>
           ))}

@@ -214,7 +214,7 @@ const projects = [
       "Show animated loadingscreen",
     ],
 
-    detailImages: ["/img/Projects//img/Projects/e-shop/e-shop.png"],
+    detailImages: ["/img/Projects/tasty/tasty1.png"],
   },
   // 6 Wanderwetter
   {
