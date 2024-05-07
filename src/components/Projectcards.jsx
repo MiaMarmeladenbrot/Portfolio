@@ -10,6 +10,7 @@ import "swiper/css/pagination";
 
 // import required modules
 import { Autoplay, EffectCards, Pagination } from "swiper/modules";
+import { Link } from "react-router-dom";
 
 const Projectcards = () => {
   return (
@@ -62,28 +63,28 @@ const Projectcards = () => {
               </div>
 
               <div className="mb-8">
-                <a
+                <Link
                   className="border border-brightColor text-brightColor hover:text-brightColor hover:bg-darkColor p-2 rounded-lg mr-3"
-                  href={singleProject.site}
+                  to={singleProject.site}
                   target="_blank"
                 >
                   Live Site
-                </a>
-                <a
+                </Link>
+                <Link
                   // className="bg-brightColor hover:border hover:border-black p-2 rounded-lg"
                   className="border border-brightColor text-brightColor hover:text-brightColor hover:bg-darkColor p-2 rounded-lg mr-3"
-                  href={singleProject.repo}
+                  to={singleProject.repo}
                   target="_blank"
                 >
                   Repository on GitHub
-                </a>
+                </Link>
               </div>
-              <a
+              <Link
                 className="bg-brightColor text-[#000000] hover:text-brightColor hover:bg-darkColor p-2 rounded-lg mr-3"
-                href={`/projects/${singleProject.id}`}
+                to={`/projects/${singleProject.id}`}
               >
                 More Info
-              </a>
+              </Link>
             </section>
           </SwiperSlide>
         ))}
