@@ -1,10 +1,12 @@
 // # IDs final vergeben und checken
 
 const projects = [
+  // 12
   // 11 Portfolio
   {
     id: 11,
     title: "Portfolio",
+    workInProgress: true,
     skills: [
       {
         img: "/img/Logos/react.png",
@@ -35,6 +37,7 @@ const projects = [
   {
     id: 10,
     title: "Fullstack Movie Database",
+    workInProgress: true,
     skills: [
       {
         img: "/img/Logos/nodejs.png",
@@ -83,6 +86,7 @@ const projects = [
   {
     id: 9,
     title: "Mobile E-Shop App",
+    workInProgress: false,
     skills: [
       {
         img: "/img/Logos/react.png",
@@ -128,6 +132,7 @@ const projects = [
   {
     id: 8,
     title: "PokeDex",
+    workInProgress: false,
     skills: [
       {
         img: "/img/Logos/react.png",
@@ -173,6 +178,7 @@ const projects = [
   {
     id: 7,
     title: "Tasty App",
+    workInProgress: false,
     skills: [
       {
         img: "/img/Logos/react.png",
@@ -220,6 +226,7 @@ const projects = [
   {
     id: 6,
     title: "Wanderwetter",
+    workInProgress: false,
     skills: [
       {
         img: "/img/Logos/js.png",
@@ -254,6 +261,7 @@ const projects = [
   {
     id: 5,
     title: "Kunterbunt",
+    workInProgress: false,
     skills: [
       {
         img: "/img/Logos/js.png",
@@ -294,6 +302,7 @@ const projects = [
   {
     id: 4,
     title: "Furniture",
+    workInProgress: false,
     skills: [
       {
         img: "/img/Logos/react.png",
@@ -332,6 +341,7 @@ const projects = [
   {
     id: 3,
     title: "Architect Portfolio",
+    workInProgress: false,
     skills: [
       {
         img: "/img/Logos/react.png",
@@ -362,6 +372,7 @@ const projects = [
   {
     id: 2,
     title: "Art Junkies",
+    workInProgress: false,
     skills: [
       {
         img: "/img/Logos/js.png",
@@ -396,6 +407,7 @@ const projects = [
   {
     id: 1,
     title: "Rock Paper Scissors",
+    workInProgress: false,
     skills: [
       {
         img: "/img/Logos/js.png",
@@ -434,6 +446,7 @@ const projects = [
   {
     id: 0,
     title: "Managing Business",
+    workInProgress: false,
     skills: [
       {
         img: "/img/Logos/html5.png",

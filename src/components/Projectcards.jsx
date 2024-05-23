@@ -43,6 +43,7 @@ const Projectcards = () => {
             key={index}
             className="flex gap-10 items-center rounded-lg overflow-hidden shadow-[0rem_0rem_1.875rem_-0.625rem_rgba(0,0,0,0.3)] bg-whiteColor"
           >
+            {/* //# work in progress einbauen */}
             <img
               className="w-1/2"
               src={singleProject.image}
@@ -63,13 +64,18 @@ const Projectcards = () => {
               </div>
 
               <div className="mb-8">
-                <Link
-                  className="border border-brightColor text-brightColor hover:text-brightColor hover:bg-darkColor p-2 rounded-lg mr-3"
-                  to={singleProject.site}
-                  target="_blank"
-                >
-                  Live Site
-                </Link>
+                {singleProject.site ? (
+                  <Link
+                    className="border border-brightColor text-brightColor hover:text-brightColor hover:bg-darkColor p-2 rounded-lg mr-3"
+                    to={singleProject.site}
+                    target="_blank"
+                  >
+                    Live Site
+                  </Link>
+                ) : (
+                  ""
+                )}
+
                 <Link
                   // className="bg-brightColor hover:border hover:border-black p-2 rounded-lg"
                   className="border border-brightColor text-brightColor hover:text-brightColor hover:bg-darkColor p-2 rounded-lg mr-3"

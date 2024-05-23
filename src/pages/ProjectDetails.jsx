@@ -22,6 +22,14 @@ const ProjectDetails = () => {
 
       <article className="flex justify-center gap-20">
         <div>
+          {projectDetails?.workInProgress ? (
+            <p className="py-1 px-2 bg-brightColor text-center absolute rotate-[-30deg] overflow-hidden">
+              Work in progress
+            </p>
+          ) : (
+            ""
+          )}
+
           <img
             // className="w-[500px]"
             className="max-w-xl"
@@ -37,13 +45,18 @@ const ProjectDetails = () => {
           </h2>
 
           <div className="mb-8">
-            <a
-              className="border border-brightColor text-brightColor hover:text-brightColor hover:bg-darkColor p-2 rounded-lg mr-3"
-              href={projectDetails?.site}
-              target="_blank"
-            >
-              Live Site
-            </a>
+            {projectDetails?.site ? (
+              <a
+                className="border border-brightColor text-brightColor hover:text-brightColor hover:bg-darkColor p-2 rounded-lg mr-3"
+                href={projectDetails?.site}
+                target="_blank"
+              >
+                Live Site
+              </a>
+            ) : (
+              ""
+            )}
+
             <a
               // className="bg-brightColor hover:border hover:border-black p-2 rounded-lg"
               className="border border-brightColor text-brightColor hover:text-brightColor hover:bg-darkColor p-2 rounded-lg mr-3"
