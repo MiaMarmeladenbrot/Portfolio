@@ -1,7 +1,110 @@
 // # IDs final vergeben und checken
+// # final befüllen - welche Felder werden wirklich benötigt?
+// Vorlage:
+// {
+// id: 11,
+// title: "Portfolio",
+// workInProgress: true,
+// skills: [
+//   {
+//     img: "/img/Logos/react.png",
+//     alt: "React",
+//   },
+// ],
+// image: "/img/Projects/portfolio/portfolio.png",
+// site: "https://portfolio-three-lime-47.vercel.app/",
+// repo: "https://github.com/MiaMarmeladenbrot/Portfolio",
+// collaborators: [],
+// purposes: [],
+// detailImages: [],
+// },
 
 const projects = [
-  // 12
+  // 15 Chirpify
+  {
+    id: 15,
+    title: "Chirpify",
+    workInProgress: true,
+    skills: [
+      {
+        img: "/img/Logos/nodejs.png",
+        alt: "Nodejs",
+      },
+      {
+        img: "/img/Logos/express.png",
+        alt: "Expressjs",
+      },
+      {
+        // mongoose?
+        img: "/img/Logos/mongodb.png",
+        alt: "mongodb",
+      },
+      {
+        img: "/img/Logos/react.png",
+        alt: "React",
+      },
+      {
+        img: "/img/Logos/html5.png",
+        alt: "HTML5",
+      },
+      {
+        img: "/img/Logos/css3.png",
+        alt: "CSS3",
+      },
+    ],
+    image: "/img/Projects/chirpify/chirpify.jpg",
+    // site: "https://bookstore-frontend-ixz6.onrender.com/",
+    repo: "https://github.com/MiaMarmeladenbrot/Chirpify",
+    collaborators: [
+      {
+        name: "Thomas Erdmenger",
+        link: "https://github.com/thomaserdmenger",
+      },
+    ],
+    purposes: [],
+    detailImages: ["/img/Projects/chirpify/chirpify.jpg"],
+  },
+  // 14 The Bookstore
+  {
+    id: 14,
+    title: "The Bookstore",
+    workInProgress: true,
+    skills: [
+      {
+        img: "/img/Logos/nodejs.png",
+        alt: "Nodejs",
+      },
+      {
+        img: "/img/Logos/express.png",
+        alt: "Expressjs",
+      },
+      {
+        // mongoose?
+        img: "/img/Logos/mongodb.png",
+        alt: "mongodb",
+      },
+      {
+        img: "/img/Logos/react.png",
+        alt: "React",
+      },
+      {
+        img: "/img/Logos/html5.png",
+        alt: "HTML5",
+      },
+      {
+        img: "/img/Logos/css3.png",
+        alt: "CSS3",
+      },
+    ],
+    image: "/img/Projects/bookstore/bookstore.jpg",
+    site: "https://bookstore-frontend-ixz6.onrender.com/",
+    repo: "https://github.com/MiaMarmeladenbrot/bookstore",
+    collaborators: [],
+    purposes: [],
+    detailImages: ["/img/Projects/bookstore/bookstore-d-home.png"],
+  },
+  // 13 Quiz App
+  // 12 Bootsverleih
   // 11 Portfolio
   {
     id: 11,
@@ -19,6 +122,10 @@ const projects = [
       {
         img: "/img/Logos/css3.png",
         alt: "CSS3",
+      },
+      {
+        img: "/img/Logos/tailwind.png",
+        alt: "Tailwind",
       },
     ],
     image: "/img/Projects/portfolio/portfolio.png",
@@ -65,7 +172,7 @@ const projects = [
       },
     ],
     image: "/img/Projects/moviedb/moviedb.jpg",
-    //# site: "https://e-shop-hmaz.onrender.com/",
+    // site: "https://e-shop-hmaz.onrender.com/",
     repo: "https://github.com/MiaMarmeladenbrot/MovieDbMERN",
     collaborators: [],
     purposes: [
