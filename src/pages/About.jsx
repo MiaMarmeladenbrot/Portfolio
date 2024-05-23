@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const About = () => {
   return (
     <main className="mt-32 mb-20 flex gap-20 items-center justify-center p-4">
@@ -23,9 +25,9 @@ const About = () => {
           After pursuing my passion for storytelling as a non-fiction editor, I
           decided to embark on a new path. Through enrollment in a Full-Stack
           Bootcamp by{" "}
-          <a href="https://www.super-code.de/" target="_blank">
+          <Link to="https://www.super-code.de/" target="_blank">
             SuperCode
-          </a>{" "}
+          </Link>{" "}
           and extensive autodidactic learning I turned my love for creative
           thinking and problem-solving into a career as a developer.
         </p>

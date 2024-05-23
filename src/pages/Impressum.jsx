@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Impressum = () => {
   return (
     <main className="mt-32 mb-20 flex flex-col gap-4 items-center justify-center">
@@ -8,9 +10,9 @@ const Impressum = () => {
       <p>Steinhauser Straße 23</p>
       <p>81677 München</p>
       <p>+49 1578 590 70 24</p>
-      <a href="mailto:mia.mecklenburg@gmx.net">
+      <Link to="mailto:mia.mecklenburg@gmx.net">
         mia DOT mecklenburg AT gmx DOT net
-      </a>
+      </Link>
     </main>
   );
 };

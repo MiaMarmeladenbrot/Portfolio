@@ -43,7 +43,6 @@ const Projectcards = () => {
             key={index}
             className="flex gap-10 items-center rounded-lg overflow-hidden shadow-[0rem_0rem_1.875rem_-0.625rem_rgba(0,0,0,0.3)] bg-whiteColor"
           >
-            {/* //# work in progress einbauen */}
             {singleProject.workInProgress ? (
               <p className="py-1 px-2 bg-brightColor text-center absolute top-10 rotate-[-30deg] rounded">
                 Work in progress

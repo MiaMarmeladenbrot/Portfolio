@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import projects from "../assets/data/projects.js";
 import BackButton from "../components/BackButton.jsx";
 
@@ -91,9 +91,9 @@ const ProjectDetails = () => {
           </h3>
           {projectDetails?.collaborators.map((collaborator, index) => (
             <p className="mb-2" key={index}>
-              <a href={collaborator.link} target="_blank">
+              <Link to={collaborator.link} target="_blank">
                 {collaborator.name}
-              </a>
+              </Link>
             </p>
           ))}
         </div>
