@@ -23,7 +23,7 @@ const ProjectDetails = () => {
       <article className="flex justify-center gap-20">
         <div>
           {projectDetails?.workInProgress ? (
-            <p className="py-1 px-2 bg-brightColor text-center absolute rotate-[-30deg] overflow-hidden">
+            <p className="py-1 px-2 bg-brightColor text-center absolute rotate-[-30deg] rounded">
               Work in progress
             </p>
           ) : (
