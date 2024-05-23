@@ -18,9 +18,9 @@ const Projectcards = () => {
       <h2 className="text-2xl border-brightColor border-b-2 inline-block pb-2 mb-5">
         Projects
       </h2>
-      <a href="/projects" className="mb-10 text-brightColor border-b">
+      <Link href="/projects" className="mb-10 text-brightColor border-b">
         See all
-      </a>
+      </Link>
 
       {/* <article className="flex items-center justify-center gap-11"> */}
       <Swiper
