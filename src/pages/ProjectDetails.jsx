@@ -68,7 +68,7 @@ const ProjectDetails = () => {
           </div>
 
           {/* Skills Images */}
-          <div className="flex gap-4 mb-8 flex-wrap">
+          <div className="flex gap-4 mb-8 flex-wrap max-w-sm">
             {projectDetails?.skills.map((singleSkill, index) => (
               <img
                 className="w-20"

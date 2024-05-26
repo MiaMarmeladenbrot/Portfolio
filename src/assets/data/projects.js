@@ -61,8 +61,23 @@ const projects = [
         link: "https://github.com/thomaserdmenger",
       },
     ],
-    purposes: [],
-    detailImages: ["/img/Projects/chirpify/chirpify.jpg"],
+    purposes: [
+      "create a social network with a secure login process",
+      "stay logged in for 2 weeks with a refresh token",
+      "register as a user and verify your email via six digit code",
+      "write tweets of 160 characters",
+      "retweet other user's tweets with your own message",
+      "edit and delete your tweets",
+      "comment on tweets",
+      "edit and delete your comments",
+      "follow other users and get their content in your personalized feed",
+      "like or dislike tweets",
+      "present your profile to other users",
+    ],
+    detailImages: [
+      "/img/Projects/chirpify/chirpify-m-loading.png",
+      "/img/Projects/chirpify/chirpify-m-login.png",
+    ],
   },
   // 14 The Bookstore
   {
