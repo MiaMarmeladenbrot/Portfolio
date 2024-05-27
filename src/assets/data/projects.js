@@ -296,7 +296,7 @@ const projects = [
 
     detailImages: [
       "/img/Projects/pokedex/pokedex-loading-home.jpg",
-      "/img/Projects/pokedex/pokedex-home.jpg",
+      "/img/Projects/pokedex/pokedex-loadmore.jpg",
       "/img/Projects/pokedex/pokedex-search.jpg",
       "/img/Projects/pokedex/pokedex-filter.jpg",
       "/img/Projects/pokedex/pokedex-details.jpg",
