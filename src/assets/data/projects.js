@@ -75,8 +75,8 @@ const projects = [
       "present your profile to other users",
     ],
     detailImages: [
-      "/img/Projects/chirpify/chirpify-m-loading.png",
-      "/img/Projects/chirpify/chirpify-m-login.png",
+      "/img/Projects/chirpify/chirpify-m-landing-register.jpg",
+      "/img/Projects/chirpify/chirpify-m-login-loading.jpg",
     ],
   },
   // 14 The Bookstore
@@ -294,7 +294,13 @@ const projects = [
       "Show animated loadingscreen",
     ],
 
-    detailImages: ["/img/Projects/pokedex/pokedex-home.png"],
+    detailImages: [
+      "/img/Projects/pokedex/pokedex-loading-home.jpg",
+      "/img/Projects/pokedex/pokedex-home.jpg",
+      "/img/Projects/pokedex/pokedex-search.jpg",
+      "/img/Projects/pokedex/pokedex-filter.jpg",
+      "/img/Projects/pokedex/pokedex-details.jpg",
+    ],
   },
   // 7 Tasty
   {
