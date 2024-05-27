@@ -248,7 +248,7 @@ const projects = [
       "Show animated loadingscreen",
     ],
 
-    detailImages: ["/img/Projects/e-shop/e-shop-screenshot.png"],
+    detailImages: ["/img/Projects/e-shop/e-shop-loading-landing.jpg"],
   },
   // 8 PokeDex
   {
@@ -348,7 +348,13 @@ const projects = [
       "Show animated loadingscreen",
     ],
 
-    detailImages: ["/img/Projects/tasty/tasty1.png"],
+    detailImages: [
+      "/img/Projects/tasty/tasty-start.jpg",
+      "/img/Projects/tasty/tasty-areas.jpg",
+      "/img/Projects/tasty/tasty-categories.jpg",
+      "/img/Projects/tasty/tasty-search.jpg",
+      "/img/Projects/tasty/tasty-details.jpg",
+    ],
   },
   // 6 Wanderwetter
   {
@@ -424,6 +430,7 @@ const projects = [
       "/img/Projects/kunterbunt/kunterbunt-konzept.png",
       "/img/Projects/kunterbunt/kunterbunt-about.png",
       "/img/Projects/kunterbunt/kunterbunt-contact.png",
+      "/img/Projects/kunterbunt/kunterbunt-t-m-home.jpg",
     ],
   },
   // 4 Tailwind Project Furniture
@@ -565,9 +572,9 @@ const projects = [
     ],
 
     detailImages: [
-      "/img/Projects/rps/rps-m-start.png",
+      "/img/Projects/rps/rps-t-m.jpg",
+
       "/img/Projects/rps/rps-d-lost.png",
-      "/img/Projects/rps/rps-t-won.png",
     ],
   },
   // 0 Managing Project
@@ -599,8 +606,7 @@ const projects = [
 
     detailImages: [
       "/img/Projects/managing/managing-d.png",
-      "/img/Projects/managing/managing-t.png",
-      "/img/Projects/managing/managing-m.png",
+      "/img/Projects/managing/managing-t-m.jpg",
     ],
   },
   // Headphone Project
