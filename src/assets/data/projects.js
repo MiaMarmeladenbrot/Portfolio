@@ -286,12 +286,14 @@ const projects = [
       },
     ],
     purposes: [
-      "Responsive Design",
-      "Search the store for products, categories or brands",
-      "Filter by category, price and/or brand",
-      "Save your favorites for later use",
-      "View the details of each individual item",
-      "Show animated loadingscreen",
+      "responsive design",
+      "show animated loadingscreen",
+      "choose between light- and darkmode",
+      "show a selection of pokemon on the landingpage",
+      "load more pokemon with button",
+      "search for pokemon by name",
+      "filter pokemon by type",
+      "view details of each pokemon",
     ],
 
     detailImages: [

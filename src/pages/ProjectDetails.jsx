@@ -41,7 +41,6 @@ const ProjectDetails = () => {
           /> */}
           <DetailsGalery projectDetails={projectDetails} />
         </div>
-        {/* //# Galerie mit einem Haupt- und mehreren Detailimages */}
 
         <div>
           <h2 className=" border-brightColor border-b-2 inline-block pb-2 mb-8">
@@ -84,11 +83,13 @@ const ProjectDetails = () => {
           </div>
 
           {/* Purposes Liste */}
-          {projectDetails?.purposes.map((singlePurpose, index) => (
-            <li className="mb-2 max-w-[40ch]" key={index}>
-              {singlePurpose}
-            </li>
-          ))}
+          <div className="mb-8">
+            {projectDetails?.purposes.map((singlePurpose, index) => (
+              <li className="mb-2 max-w-[40ch]" key={index}>
+                {singlePurpose}
+              </li>
+            ))}
+          </div>
 
           <h3 className="mb-2">
             {projectDetails?.collaborators.length > 0 ? "Collaborateurs:" : ""}
