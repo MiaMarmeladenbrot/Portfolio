@@ -2,8 +2,7 @@
 
 # ToDos
 
-- Project Detailpage Galerie: https://swiperjs.com/demos#thumbs-gallery
+- ProjectDetails: Swiper-Galerie noch in Tailwind übertragen
 - About-Foto
 - data aufräumen: features ersetzen/ergänzen mit purposes? angeben, was ICH gemacht habe bei collaborations?
-- work in progress
 - media queries

@@ -2,6 +2,9 @@ import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import projects from "../assets/data/projects.js";
 import BackButton from "../components/BackButton.jsx";
+import DetailsGalery from "../components/DetailsGalery.jsx";
+
+import "../styles.css";
 
 const ProjectDetails = () => {
   // State for Details of found project
@@ -23,19 +26,20 @@ const ProjectDetails = () => {
       <article className="flex justify-center gap-20">
         <div>
           {projectDetails?.workInProgress ? (
-            <p className="py-1 px-2 bg-brightColor text-center absolute rotate-[-30deg] rounded">
+            <p className="py-1 px-2 bg-brightColor text-center absolute rotate-[-30deg] rounded z-10">
               Work in progress
             </p>
           ) : (
             ""
           )}
 
-          <img
+          {/* <img
             // className="w-[500px]"
             className="max-w-xl"
             src={projectDetails?.detailImages[0]}
             alt={projectDetails?.title}
-          />
+          /> */}
+          <DetailsGalery projectDetails={projectDetails} />
         </div>
         {/* //# Galerie mit einem Haupt- und mehreren Detailimages */}
 
