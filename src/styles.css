@@ -1,8 +1,12 @@
-.swiper {
+.swiperBigImg {
+  width: 550px;
+}
+
+.swiperBigImg .swiper {
   width: 100%;
 }
 
-.swiper-slide {
+.swiperBigImg .swiper-slide {
   text-align: center;
   font-size: 18px;
   background: #fff;
@@ -16,13 +20,9 @@
   background-position: center;
 }
 
-.swiper-slide img {
+.swiperBigImg .swiper-slide img {
   width: 100%;
   object-fit: cover;
-}
-
-.swiperBigImg {
-  width: 550px;
 }
 
 .swiperImgThumbs {
