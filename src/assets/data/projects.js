@@ -23,7 +23,7 @@ const projects = [
   // 15 Chirpify
   {
     id: 15,
-    title: "Chirpify",
+    title: "Chirpify Social Network",
     workInProgress: true,
     skills: [
       {
