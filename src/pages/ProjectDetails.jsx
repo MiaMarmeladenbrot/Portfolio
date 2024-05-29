@@ -85,7 +85,10 @@ const ProjectDetails = () => {
           {/* Purposes Liste */}
           <div className="mb-8">
             {projectDetails?.purposes.map((singlePurpose, index) => (
-              <li className="mb-2 max-w-[40ch]" key={index}>
+              <li
+                className="mb-2 max-w-[40ch] indent-[-26px] pl-[26px]"
+                key={index}
+              >
                 {singlePurpose}
               </li>
             ))}

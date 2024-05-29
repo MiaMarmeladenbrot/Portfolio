@@ -115,7 +115,16 @@ const projects = [
     site: "https://bookstore-frontend-ixz6.onrender.com/",
     repo: "https://github.com/MiaMarmeladenbrot/bookstore",
     collaborators: [],
-    purposes: [],
+    purposes: [
+      "create an online-shop with a secure login process",
+      "stay logged in for 2 weeks with a refresh token",
+      "register as a user and verify your email via six digit code",
+      "edit and delete your profile (only while logged in)",
+      "search for books",
+      "show detail page for every book with information regarding content and author",
+      "save books as bookmarks/favorites (only while logged in)",
+      "put books in a cart (only while logged in)",
+    ],
     detailImages: ["/img/Projects/bookstore/bookstore-d-home.png"],
   },
   // 13 Quiz App
