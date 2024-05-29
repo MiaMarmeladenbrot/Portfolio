@@ -23,7 +23,7 @@ const Footer = () => {
         </Link>
 
         {/* Mail Icon */}
-        <Link to="" target="_blank">
+        <Link to="mailto:mia.mecklenburg@gmx.net" target="_blank">
           <svg
             className="hover:bg-brightColor rounded-lg "
             height="20"

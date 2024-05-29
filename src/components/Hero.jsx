@@ -7,10 +7,12 @@ const Hero = () => {
         {/* bg-[url('/img/hero.png')] bg-no-repeat bg-right  */}
         {/* <h3 className="text-brightColor mb-3">Web Developer</h3> */}
         <h2 className="text-brightColor">Hey there! </h2>
-        <h2 className="text-brightColor mb-6">My name is Mia</h2>
+        <h2 className="text-brightColor mb-6">My name is Mia.</h2>
         <p className="mb-8 max-w-[40ch]">
           I’m a passionate developer, always looking for new challenges.
         </p>
+        {/* I’m a passionate developer, former editor and cheerful soul. Since I
+          am always looking for new challenges. */}
 
         {/* Social Icons Container */}
         <article className="flex gap-2 items-center">
@@ -33,7 +35,7 @@ const Hero = () => {
           </Link>
 
           {/* Mail Icon */}
-          <Link to="" target="_blank">
+          <Link to="mailto:mia.mecklenburg@gmx.net" target="_blank">
             <svg
               className="hover:bg-brightColor rounded-lg "
               height="30"
