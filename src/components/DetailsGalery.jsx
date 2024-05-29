@@ -17,7 +17,7 @@ export default function DetailsGalery({ projectDetails }) {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
 
   return (
-    <>
+    <section className="  max-w-2xl">
       <Swiper
         style={{
           "--swiper-navigation-color": "#fff",
@@ -33,7 +33,11 @@ export default function DetailsGalery({ projectDetails }) {
       >
         {projectDetails?.detailImages?.map((singleImg, index) => (
           <SwiperSlide key={index}>
-            <img src={singleImg} />
+            <img
+              src={singleImg}
+              alt={projectDetails?.title}
+              className="px-10"
+            />
           </SwiperSlide>
         ))}
       </Swiper>
@@ -49,10 +53,10 @@ export default function DetailsGalery({ projectDetails }) {
       >
         {projectDetails?.detailImages?.map((singleImg, index) => (
           <SwiperSlide key={index}>
-            <img src={singleImg} />
+            <img src={singleImg} alt={projectDetails?.title} />
           </SwiperSlide>
         ))}
       </Swiper>
-    </>
+    </section>
   );
 }

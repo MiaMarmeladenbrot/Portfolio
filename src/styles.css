@@ -1,5 +1,5 @@
 .swiperBigImg {
-  width: 550px;
+  width: 100%;
 }
 
 .swiperBigImg .swiper {
@@ -26,7 +26,7 @@
 }
 
 .swiperImgThumbs {
-  width: 500px;
+  width: 100%;
   box-sizing: border-box;
   padding: 10px 0;
 }
