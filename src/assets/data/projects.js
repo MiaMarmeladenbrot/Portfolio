@@ -562,7 +562,12 @@ const projects = [
       "Show different image depending on advice",
     ],
 
-    detailImages: ["/img/Projects/artjunkies/artjunkies-home.png"],
+    detailImages: [
+      "/img/Projects/artjunkies/artjunkies-d-home.png",
+      "/img/Projects/artjunkies/artjunkies-d-search.png",
+      "/img/Projects/artjunkies/artjunkies-t.jpg",
+      "/img/Projects/artjunkies/artjunkies-m.jpg",
+    ],
   },
   // 1 Schere, Stein, Papier
   {
