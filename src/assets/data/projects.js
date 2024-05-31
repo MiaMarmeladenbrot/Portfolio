@@ -125,7 +125,11 @@ const projects = [
       "save books as bookmarks/favorites (only while logged in)",
       "put books in a cart (only while logged in)",
     ],
-    detailImages: ["/img/Projects/bookstore/bookstore-d-home.png"],
+    detailImages: [
+      "/img/Projects/bookstore/bookstore-d-home.png",
+      "/img/Projects/bookstore/bookstore-d-register.png",
+      "/img/Projects/bookstore/bookstore-d-login.png",
+    ],
   },
   // 13 Quiz App
   // 12 Bootsverleih
@@ -162,7 +166,13 @@ const projects = [
       "Sliding cards with react swiper",
     ],
 
-    detailImages: ["/img/Projects/portfolio/portfolio-d-home.png"],
+    detailImages: [
+      "/img/Projects/portfolio/portfolio-d-home.png",
+      "/img/Projects/portfolio/portfolio-d-projects.png",
+      "/img/Projects/portfolio/portfolio-d-details.png",
+      "/img/Projects/portfolio/portfolio-d-books.png",
+      "/img/Projects/portfolio/portfolio-d-about.png",
+    ],
   },
   // 10 Movie DB Fullstack
   {
