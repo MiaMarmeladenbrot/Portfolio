@@ -1,5 +1,6 @@
 // # IDs final vergeben und checken
 // # final befüllen - welche Felder werden wirklich benötigt?
+// # noch ein oder zwei responsive designs ergänzen
 // Vorlage:
 // {
 // id: 11,
@@ -410,7 +411,11 @@ const projects = [
       "Show different image depending on advice",
     ],
 
-    detailImages: ["/img/Projects/wanderwetter/wanderwetter-search.png"],
+    detailImages: [
+      "/img/Projects/wanderwetter/wanderwetter-search.png",
+      "/img/Projects/wanderwetter/wanderwetter-m-t-1.jpg",
+      "/img/Projects/wanderwetter/wanderwetter-m-t-2.jpg",
+    ],
   },
   // 5 Kunterbunt
   {
@@ -616,7 +621,7 @@ const projects = [
       },
     ],
     features: [],
-    image: "/img/Projects/managing/managing.jpg",
+    image: "/img/Projects/managing/managing-1.png",
     site: "https://miamarmeladenbrot.github.io/supercode-project-managing-business/",
     repo: "https://github.com/MiaMarmeladenbrot/supercode-project-managing-business?tab=readme-ov-file",
     collaborators: [],

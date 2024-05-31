@@ -2,7 +2,7 @@
 
 # ToDos
 
-- responsive design auf index-img des jeweiligen projekts darstellen, indem dort macbook, tablet, handy pngs zusammen gezeigt werden?
+- responsive design auf index-img
 - noch mehr Projekte als responsive Projekte umsetzen?
 - techstack als img-url von github?
 - e-shop neu deployen
