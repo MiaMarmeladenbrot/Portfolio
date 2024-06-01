@@ -63,7 +63,7 @@ const projects = [
       },
     ],
     purposes: [
-      "create a social network with a secure login process",
+      "social network with secure login process",
       "stay logged in for 2 weeks with a refresh token",
       "register as a user and verify your email via six digit code",
       "write tweets of 160 characters",
@@ -73,7 +73,7 @@ const projects = [
       "edit and delete your comments",
       "follow other users and get their content in your personalized feed",
       "like or dislike tweets",
-      "present your profile to other users",
+      "present your profile and tweets to others on your user page",
     ],
     detailImages: [
       "/img/Projects/chirpify/chirpify-m-landing-register.jpg",
@@ -117,7 +117,7 @@ const projects = [
     repo: "https://github.com/MiaMarmeladenbrot/bookstore",
     collaborators: [],
     purposes: [
-      "create an online-shop with a secure login process",
+      "online-shop with secure login process",
       "stay logged in for 2 weeks with a refresh token",
       "register as a user and verify your email via six digit code",
       "edit and delete your profile (only while logged in)",
@@ -162,9 +162,10 @@ const projects = [
     repo: "https://github.com/MiaMarmeladenbrot/Portfolio",
     collaborators: [],
     purposes: [
-      "Design a portfolio website with project selection, about- and contact-information",
-      "Responsive design",
-      "Sliding cards with react swiper",
+      "responsive design",
+      "design a portfolio website",
+      "show project selection, about- and contact-information",
+      "build sliding cards and image galleries with react swiper",
     ],
 
     detailImages: [
@@ -211,15 +212,14 @@ const projects = [
     repo: "https://github.com/MiaMarmeladenbrot/MovieDbMERN",
     collaborators: [],
     purposes: [
-      "Create database for movie and favorite movies data",
-      "Show all movies from the database",
-      "Save new movies in the database",
-      "Edit a movie",
-      "Search for movie titles",
-      "Save a movie to favorite movies",
-      "Show all favorite movies",
-      "View the details of each movie",
-      "Show animated loadingscreen",
+      "show animated loadingscreen",
+      "show all movies from the database",
+      "search for movie titles",
+      "save new movies in the database",
+      "edit a movie",
+      "save a movie to favorite movies",
+      "show all favorite movies",
+      "view the details of each movie on a separate page",
     ],
 
     detailImages: ["/img/Projects/moviedb/moviedb-home.png"],
@@ -261,11 +261,12 @@ const projects = [
       },
     ],
     purposes: [
-      "Search the store for products, categories or brands",
-      "Filter by category, price and/or brand",
-      "Save your favorites for later use",
-      "View the details of each individual item",
-      "Show animated loadingscreen",
+      "mobile online store",
+      "search the store for products, categories or brands",
+      "filter by category, price and/or brand",
+      "save your favorites for later use",
+      "view the details of each individual item on a separate page",
+      "show animated loadingscreen",
     ],
 
     detailImages: ["/img/Projects/e-shop/e-shop-loading-landing.jpg"],
@@ -308,12 +309,12 @@ const projects = [
     purposes: [
       "responsive design",
       "show animated loadingscreen",
-      "choose between light- and darkmode",
+      "switch between dark- and light-mode",
       "show a selection of pokemon on the landingpage",
       "load more pokemon with button",
       "search for pokemon by name",
       "filter pokemon by type",
-      "view details of each pokemon",
+      "view details for each pokemon on separate page",
     ],
 
     detailImages: [
@@ -362,12 +363,12 @@ const projects = [
       },
     ],
     purposes: [
-      "Create a recipe app",
-      "Search recipes by country and category",
-      "Search for recipes by name",
-      "Show detailed page of the recipe with ingredients, quantities and instructions",
-      "Show random recipe suggestions",
-      "Show animated loadingscreen",
+      "mobile recipe app",
+      "search recipes by country and category",
+      "search for recipes by name",
+      "show detailed page for each recipe with ingredients, quantities and instructions",
+      "show random recipe suggestions",
+      "show animated loadingscreen",
     ],
 
     detailImages: [
@@ -405,10 +406,10 @@ const projects = [
     repo: "https://github.com/MiaMarmeladenbrot/Wanderwetter",
     collaborators: [],
     purposes: [
-      "Responsive Design",
-      "Search for weather data at specified location",
-      "Get an advice depending on the weather data",
-      "Show different image depending on advice",
+      "responsive Design",
+      "search for weather data at specified location",
+      "get an advice depending on the weather data",
+      "show different images depending on the advice",
     ],
 
     detailImages: [
@@ -444,10 +445,10 @@ const projects = [
     repo: "https://github.com/MiaMarmeladenbrot/kunterbunt",
     collaborators: [],
     purposes: [
-      "Responsive Design",
-      "Website for child's daycare",
-      "Show information about the facility, the concept and the educator",
-      "Show contact information",
+      "responsive design",
+      "website for child's daycare",
+      "show information about the facility, the concept and the educator",
+      "show contact information",
     ],
 
     detailImages: [
@@ -491,9 +492,9 @@ const projects = [
     repo: "https://github.com/MiaMarmeladenbrot/Tailwind-Layout",
     collaborators: [],
     purposes: [
-      "first tailwind project",
-      "Website for furniture store",
-      "Sign-in/Login Pop-ups",
+      "recreate the design with tailwind",
+      "show information about the company",
+      "use popup-window for sign up and login",
     ],
 
     detailImages: ["/img/Projects/furniture-tailwind/furniture-tailwind.png"],
@@ -522,7 +523,12 @@ const projects = [
     site: "https://architect-portfolio-sage.vercel.app/",
     repo: "https://github.com/MiaMarmeladenbrot/Architect-Portfolio",
     collaborators: [],
-    purposes: ["Show animated loadingscreen", "Dark-Light-Mode"],
+    purposes: [
+      "show animated loadingscreen",
+      "switch between dark- and light-mode",
+      "show information of company",
+      "show photo gallery on different page",
+    ],
 
     detailImages: [
       "/img/Projects/architect-portfolio/architect-portfolio-light.png",
@@ -556,10 +562,10 @@ const projects = [
     repo: "https://github.com/MiaMarmeladenbrot/ArtJunkies",
     collaborators: [],
     purposes: [
-      "Responsive Design",
-      "Search for weather data at specified location",
-      "Get an advice depending on the weather data",
-      "Show different image depending on advice",
+      "responsive Design",
+      "search for artists and art works from the MET Museum",
+      "show detail cards of found objects",
+      "forward to the MET Museum's page for each found object",
     ],
 
     detailImages: [
@@ -596,15 +602,14 @@ const projects = [
     repo: "https://github.com/MiaMarmeladenbrot/Rock-Paper-Scissors",
     collaborators: [],
     purposes: [
-      "Responsive Design",
-      "Play Rock Paper Scissors",
-      "Show winner/loser",
-      "Show best out of five as final winner",
+      "responsive Design",
+      "play Rock Paper Scissors",
+      "show winner/loser",
+      "show best out of five as final winner",
     ],
 
     detailImages: [
       "/img/Projects/rps/rps-t-m.jpg",
-
       "/img/Projects/rps/rps-d-lost.png",
     ],
   },
@@ -630,10 +635,7 @@ const projects = [
     site: "https://miamarmeladenbrot.github.io/supercode-project-managing-business/",
     repo: "https://github.com/MiaMarmeladenbrot/supercode-project-managing-business?tab=readme-ov-file",
     collaborators: [],
-    purposes: [
-      "Responsive Design",
-      "Recreate the figma-design as exact as possible",
-    ],
+    purposes: ["responsive design", "show information about the company"],
 
     detailImages: [
       "/img/Projects/managing/managing-d.png",
