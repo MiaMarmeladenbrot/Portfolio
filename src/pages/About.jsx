@@ -8,12 +8,12 @@ const About = () => {
         <img
           src="/img/about.png"
           alt="profile image of mia"
-          className="mb-10 max-w-64"
+          className="mb-6 max-w-64"
         />
-        <p className="mb-2 ">passionate developer</p>
         <p className="mb-2 ">book lover</p>
-        <p className="mb-2 ">yogi</p>
+        <p className="mb-2 ">yoga teacher</p>
         <p className="mb-2 ">dive master</p>
+        <p className="mb-2 ">science nerd</p>
       </section>
 
       {/* Text-Teil */}
@@ -24,19 +24,19 @@ const About = () => {
         <p className="mb-5 ">
           After pursuing my passion for storytelling as a non-fiction editor, I
           decided to embark on a new path. Through enrollment in a Full-Stack
-          Bootcamp by{" "}
+          Bootcamp at{" "}
           <Link to="https://www.super-code.de/" target="_blank">
             SuperCode
           </Link>{" "}
-          and extensive autodidactic learning I turned my love for creative
-          thinking and problem-solving into a career as a developer.
+          and engaging in extensive self-study, I transformed my love for
+          creative thinking and problem-solving into a career as a developer.
         </p>
         <p className=" mb-5 ">
           While this journey sometimes felt like a rollercoaster ride, I am
-          incredibly grateful that I started it. As someone inherently curious
-          and eager to learn, experiencing the impressive learning curve has
-          been amazing. I love that I am constantly progressing and expanding my
-          skill set.
+          incredibly grateful that I started it. Driven by a natural curiosity
+          and eagerness to learn, I have found the steep learning curve of the
+          past year to be an amazing experience. I love that I am constantly
+          progressing and expanding my skill set.
         </p>
       </section>
     </main>

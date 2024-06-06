@@ -498,7 +498,14 @@ const projects = [
       "use popup-window for sign up and login",
     ],
 
-    detailImages: ["/img/Projects/furniture-tailwind/furniture-tailwind.png"],
+    detailImages: [
+      "/img/Projects/furniture-tailwind/furniture-tailwind.png",
+      "/img/Projects/furniture-tailwind/furniture-tailwind1.png",
+      "/img/Projects/furniture-tailwind/furniture-tailwind2.png",
+      "/img/Projects/furniture-tailwind/furniture-tailwind3.png",
+      "/img/Projects/furniture-tailwind/furniture-tailwind4.png",
+      "/img/Projects/furniture-tailwind/furniture-tailwind5.png",
+    ],
   },
   // 3 Architect Portfolio
   {
@@ -534,6 +541,17 @@ const projects = [
     detailImages: [
       "/img/Projects/architect-portfolio/architect-portfolio-light.png",
       "/img/Projects/architect-portfolio/architect-portfolio-dark.png",
+      "/img/Projects/architect-portfolio/architect-portfolio-light1.png",
+      "/img/Projects/architect-portfolio/architect-portfolio-dark1.png",
+      "/img/Projects/architect-portfolio/architect-portfolio-light2.png",
+      "/img/Projects/architect-portfolio/architect-portfolio-dark2.png",
+      "/img/Projects/architect-portfolio/architect-portfolio-light3.png",
+      "/img/Projects/architect-portfolio/architect-portfolio-dark3.png",
+      "/img/Projects/architect-portfolio/architect-portfolio-light4.png",
+      "/img/Projects/architect-portfolio/architect-portfolio-dark4.png",
+      "/img/Projects/architect-portfolio/architect-portfolio-light5.png",
+      "/img/Projects/architect-portfolio/architect-portfolio-light6.png",
+      "/img/Projects/architect-portfolio/architect-portfolio-dark6.png",
     ],
   },
   // 2 Art Junkies
