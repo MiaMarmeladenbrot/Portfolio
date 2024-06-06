@@ -21,6 +21,7 @@
 // },
 
 const projects = [
+  // 16 plant shop?
   // 15 Chirpify
   {
     id: 15,
@@ -177,53 +178,53 @@ const projects = [
     ],
   },
   // 10 Movie DB Fullstack
-  {
-    id: 10,
-    title: "Fullstack Movie Database",
-    workInProgress: true,
-    skills: [
-      {
-        img: "/img/Logos/nodejs.png",
-        alt: "Nodejs",
-      },
-      {
-        img: "/img/Logos/express.png",
-        alt: "Expressjs",
-      },
-      {
-        img: "/img/Logos/mongodb.png",
-        alt: "mongodb",
-      },
-      {
-        img: "/img/Logos/react.png",
-        alt: "React",
-      },
-      {
-        img: "/img/Logos/html5.png",
-        alt: "HTML5",
-      },
-      {
-        img: "/img/Logos/css3.png",
-        alt: "CSS3",
-      },
-    ],
-    image: "/img/Projects/moviedb/moviedb.jpg",
-    // site: "https://e-shop-hmaz.onrender.com/",
-    repo: "https://github.com/MiaMarmeladenbrot/MovieDbMERN",
-    collaborators: [],
-    purposes: [
-      "show animated loadingscreen",
-      "show all movies from the database",
-      "search for movie titles",
-      "save new movies in the database",
-      "edit a movie",
-      "save a movie to favorite movies",
-      "show all favorite movies",
-      "view the details of each movie on a separate page",
-    ],
+  // {
+  //   id: 10,
+  //   title: "Fullstack Movie Database",
+  //   workInProgress: true,
+  //   skills: [
+  //     {
+  //       img: "/img/Logos/nodejs.png",
+  //       alt: "Nodejs",
+  //     },
+  //     {
+  //       img: "/img/Logos/express.png",
+  //       alt: "Expressjs",
+  //     },
+  //     {
+  //       img: "/img/Logos/mongodb.png",
+  //       alt: "mongodb",
+  //     },
+  //     {
+  //       img: "/img/Logos/react.png",
+  //       alt: "React",
+  //     },
+  //     {
+  //       img: "/img/Logos/html5.png",
+  //       alt: "HTML5",
+  //     },
+  //     {
+  //       img: "/img/Logos/css3.png",
+  //       alt: "CSS3",
+  //     },
+  //   ],
+  //   image: "/img/Projects/moviedb/moviedb.jpg",
+  //   // site: "https://e-shop-hmaz.onrender.com/",
+  //   repo: "https://github.com/MiaMarmeladenbrot/MovieDbMERN",
+  //   collaborators: [],
+  //   purposes: [
+  //     "show animated loadingscreen",
+  //     "show all movies from the database",
+  //     "search for movie titles",
+  //     "save new movies in the database",
+  //     "edit a movie",
+  //     "save a movie to favorite movies",
+  //     "show all favorite movies",
+  //     "view the details of each movie on a separate page",
+  //   ],
 
-    detailImages: ["/img/Projects/moviedb/moviedb-home.png"],
-  },
+  //   detailImages: ["/img/Projects/moviedb/moviedb-home.png"],
+  // },
   // 9 E-Shop
   {
     id: 9,
