@@ -27,6 +27,7 @@ const projects = [
     id: 15,
     title: "Chirpify Social Network",
     workInProgress: true,
+    hoverColor: "#1C9BF1",
     skills: [
       {
         img: "/img/Logos/nodejs.png",
@@ -86,6 +87,7 @@ const projects = [
     id: 14,
     title: "The Bookstore",
     workInProgress: true,
+    hoverColor: "#F26C6D",
     skills: [
       {
         img: "/img/Logos/nodejs.png",
@@ -140,6 +142,7 @@ const projects = [
     id: 11,
     title: "Portfolio",
     workInProgress: true,
+    hoverColor: "#FDC434",
     skills: [
       {
         img: "/img/Logos/react.png",
@@ -230,6 +233,7 @@ const projects = [
     id: 9,
     title: "Mobile E-Shop App",
     workInProgress: false,
+    hoverColor: "#394FD4",
     skills: [
       {
         img: "/img/Logos/react.png",

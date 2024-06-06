@@ -16,7 +16,13 @@ const Projects = () => {
             to={`/projects/${singleProject.id}`}
             className="text-[#000000] hover:text-[#000000]"
           >
-            <div className="flex flex-col gap-4 justify-center rounded-lg overflow-hidden shadow-[0px_0px_30px_-10px_rgba(0,0,0,0.3)] hover:shadow-[0px_0px_30px_-10px_rgba(0,0,0,1)] w-80">
+            <div
+              className={`flex flex-col gap-4 justify-center rounded-lg overflow-hidden shadow-[0px_0px_30px_-10px_rgba(0,0,0,0.3)] hover:shadow-[0px_0px_30px_-10px_rgba(0,0,0,1)] w-80`}
+            >
+              {/* hover:shadow-[0px_0px_30px_-10px_rgba(0,0,0,1)] */}
+              {/* hover:shadow-[0px_0px_30px_-10px_${
+                singleProject?.hoverColor || "rgba(0,0,0,1)"
+              }] */}
               <div>
                 {singleProject.workInProgress ? (
                   <p className="py-1 px-2 bg-brightColor text-center absolute rotate-[-30deg] ml-[-25px] mt-4 rounded">
