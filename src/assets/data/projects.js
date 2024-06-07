@@ -161,7 +161,7 @@ const projects = [
         alt: "Tailwind",
       },
     ],
-    image: "/img/Projects/portfolio/portfolio.png",
+    image: "/img/Projects/portfolio/portfolio.jpg",
     site: "https://portfolio-three-lime-47.vercel.app/",
     repo: "https://github.com/MiaMarmeladenbrot/Portfolio",
     collaborators: [],
@@ -173,11 +173,17 @@ const projects = [
     ],
 
     detailImages: [
-      "/img/Projects/portfolio/portfolio-d-home.png",
+      "/img/Projects/portfolio/portfolio-d-home1.png",
+      "/img/Projects/portfolio/portfolio-d-home2.png",
+      "/img/Projects/portfolio/portfolio-t-m-home.jpg",
       "/img/Projects/portfolio/portfolio-d-projects.png",
+      "/img/Projects/portfolio/portfolio-t-m-projects.jpg",
       "/img/Projects/portfolio/portfolio-d-details.png",
+      "/img/Projects/portfolio/portfolio-t-m-details.jpg",
       "/img/Projects/portfolio/portfolio-d-books.png",
+      "/img/Projects/portfolio/portfolio-t-m-books.jpg",
       "/img/Projects/portfolio/portfolio-d-about.png",
+      "/img/Projects/portfolio/portfolio-t-m-about.jpg",
     ],
   },
   // 10 Movie DB Fullstack

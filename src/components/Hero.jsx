@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
-    <section className=" bg-[url('/img/hero.svg')] bg-no-repeat bg-contain md:bg-right-top xl:pt-56 lg:pt-32 md:pt-[80%] pt-[100%]">
-      <article className="md:pl-28 pl-20 pb-40 ">
+    <section className=" bg-[url('/img/hero.svg')] bg-no-repeat bg-contain md:bg-right-top xl:pt-56 lg:pt-32 sm:pt-[80%] pt-[100%]">
+      <article className="md:pl-28 pl-10 sm:pl-20 pb-40 ">
         {/* bg-[url('/img/hero.png')] bg-no-repeat bg-right  */}
         {/* <h3 className="text-brightColor mb-3">Web Developer</h3> */}
         <h2 className="text-brightColor">Hey there! </h2>

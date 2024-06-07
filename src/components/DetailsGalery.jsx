@@ -17,7 +17,7 @@ export default function DetailsGalery({ projectDetails }) {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
 
   return (
-    <section className="  max-w-2xl">
+    <section className=" max-w-xs sm:max-w-lg md:max-w-2xl lg:max-w-3xl 2xl:max-w-5xl ">
       <Swiper
         style={{
           "--swiper-navigation-color": "#fff",
