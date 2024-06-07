@@ -274,7 +274,18 @@ const projects = [
       "show animated loadingscreen",
     ],
 
-    detailImages: ["/img/Projects/e-shop/e-shop-loading-landing.jpg"],
+    detailImages: [
+      "/img/Projects/e-shop/e-shop-loading-landing.png",
+      "/img/Projects/e-shop/e-shop-home.png",
+      "/img/Projects/e-shop/e-shop-search.png",
+      "/img/Projects/e-shop/e-shop-sort.png",
+      "/img/Projects/e-shop/e-shop-loadmore.png",
+      "/img/Projects/e-shop/e-shop-filter-light.png",
+      "/img/Projects/e-shop/e-shop-filter-dark.png",
+      "/img/Projects/e-shop/e-shop-favorites.png",
+      "/img/Projects/e-shop/e-shop-details-light.png",
+      "/img/Projects/e-shop/e-shop-details-dark.png",
+    ],
   },
   // 8 PokeDex
   {
