@@ -2,13 +2,13 @@ import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
-    <section className="flex items-center bg-[url('/img/hero.svg')] bg-no-repeat bg-right bg-contain pt-56">
-      <article className="pl-28 pb-40 ">
+    <section className=" bg-[url('/img/hero.svg')] bg-no-repeat bg-contain md:bg-right-top xl:pt-56 lg:pt-32 sm:pt-[80%] pt-[100%]">
+      <article className="md:pl-28 pl-10 sm:pl-20 pb-40 ">
         {/* bg-[url('/img/hero.png')] bg-no-repeat bg-right  */}
         {/* <h3 className="text-brightColor mb-3">Web Developer</h3> */}
         <h2 className="text-brightColor">Hey there! </h2>
         <h2 className="text-brightColor mb-6">My name is Mia.</h2>
-        <p className="mb-8 max-w-[40ch]">
+        <p className="mb-8 max-w-[30ch]">
           I’m a passionate developer, always looking for new challenges.
         </p>
         {/* I’m a passionate developer, former editor and cheerful soul. Since I
@@ -73,7 +73,11 @@ const Hero = () => {
         </article>
       </article>
 
-      {/* <img src="/img/hero.png" alt="" className="fixed top-0 right-0" /> */}
+      {/* <img
+        src="/img/hero.png"
+        alt="illustration of woman with laptop"
+        className="md:hidden static top"
+      /> */}
       {/* <img src="/img/hero.png" alt="" className="" /> */}
     </section>
   );

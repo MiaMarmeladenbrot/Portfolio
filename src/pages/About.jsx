@@ -2,18 +2,20 @@ import { Link } from "react-router-dom";
 
 const About = () => {
   return (
-    <main className="mt-32 mb-20 flex gap-20 items-center justify-center p-4">
+    <main className="mt-32 mb-20 px-10 md:px-20 flex flex-col md:flex-row gap-10 md:gap-20 items-center justify-center p-4">
       {/* Bild-Teil */}
-      <section className="flex flex-col items-center">
+      <section className="flex flex-col sm:flex-row md:flex-col sm:gap-10 md:gap-0 items-center">
         <img
           src="/img/about.png"
           alt="profile image of mia"
           className="mb-6 max-w-64"
         />
-        <p className="mb-2 ">book lover</p>
-        <p className="mb-2 ">yoga teacher</p>
-        <p className="mb-2 ">dive master</p>
-        <p className="mb-2 ">science nerd</p>
+        <div>
+          <p className="mb-2 ">book lover</p>
+          <p className="mb-2 ">yoga teacher</p>
+          <p className="mb-2 ">dive master</p>
+          <p className="mb-2 ">science nerd</p>
+        </div>
       </section>
 
       {/* Text-Teil */}

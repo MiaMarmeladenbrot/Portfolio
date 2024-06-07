@@ -3,11 +3,11 @@ import { books } from "../assets/data/books";
 
 const Books = () => {
   return (
-    <main className="mt-32 mb-20 flex  flex-col gap-4 items-center pr-20 pl-20">
+    <main className="mt-32 mb-20 flex  flex-col gap-4 items-center md:px-20 px-10">
       <h2 className="border-brightColor border-b-2 inline-block pb-2 mb-5">
         My Books
       </h2>
-      <p className="mb-10 max-w-6xl text-center">
+      <p className="mb-10 max-w-6xl lg:text-center">
         In my former life, I was an editor for non-fiction literature and helped
         bring many great books into this world. My responsibility was to breathe
         life into the book: finding exciting stories and authors, identifying

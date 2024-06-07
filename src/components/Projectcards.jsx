@@ -14,7 +14,7 @@ import { Link } from "react-router-dom";
 
 const Projectcards = () => {
   return (
-    <section className="flex justify-center flex-col items-center mb-24">
+    <section className="hidden lg:flex justify-center flex-col items-center mb-24">
       <h2 className="text-2xl border-brightColor border-b-2 inline-block pb-2 mb-5">
         Projects
       </h2>

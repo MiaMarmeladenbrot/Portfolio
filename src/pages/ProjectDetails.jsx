@@ -23,7 +23,7 @@ const ProjectDetails = () => {
     <main className="mt-32 mb-20 flex flex-col gap-4 items-center justify-center">
       <BackButton />
 
-      <article className="flex justify-center gap-20">
+      <article className="flex flex-col xl:flex-row justify-center gap-20 px-20">
         <div>
           {projectDetails?.workInProgress ? (
             <p className="py-1 px-2 bg-brightColor text-center absolute rotate-[-30deg] rounded z-10">
