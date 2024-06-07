@@ -8,7 +8,7 @@ const Projects = () => {
         Projects
       </h2>
       {/* <article className="grid grid-cols-3 gap-5"> */}
-      <article className="grid md:grid-cols-2 lg:grid-cols-3  gap-11">
+      <article className="grid md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-11">
         {/* flex flex-wrap items-center justify-center gap-11 */}
         {projects.map((singleProject, index) => (
           <Link
