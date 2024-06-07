@@ -162,7 +162,7 @@ const projects = [
       },
     ],
     image: "/img/Projects/portfolio/portfolio.jpg",
-    site: "https://portfolio-three-lime-47.vercel.app/",
+    site: "https://mias-portfolio.vercel.app/",
     repo: "https://github.com/MiaMarmeladenbrot/Portfolio",
     collaborators: [],
     purposes: [
