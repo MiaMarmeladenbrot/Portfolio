@@ -83,6 +83,7 @@ const projects = [
       "/img/Projects/chirpify/chirpify-feed-userpage.jpg",
       "/img/Projects/chirpify/chirpify-edit-user.jpg",
       "/img/Projects/chirpify/chirpify-add-tweet.jpg",
+      "/img/Projects/chirpify/chirpify-edit-delete-tweet.jpg",
       "/img/Projects/chirpify/chirpify-comment.jpg",
     ],
   },
