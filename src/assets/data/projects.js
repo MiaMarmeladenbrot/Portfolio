@@ -80,6 +80,10 @@ const projects = [
     detailImages: [
       "/img/Projects/chirpify/chirpify-m-landing-register.jpg",
       "/img/Projects/chirpify/chirpify-m-login-loading.jpg",
+      "/img/Projects/chirpify/chirpify-feed-userpage.jpg",
+      "/img/Projects/chirpify/chirpify-edit-user.jpg",
+      "/img/Projects/chirpify/chirpify-add-tweet.jpg",
+      "/img/Projects/chirpify/chirpify-comment.jpg",
     ],
   },
   // 14 The Bookstore
