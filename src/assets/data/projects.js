@@ -277,6 +277,7 @@ const projects = [
     ],
     purposes: [
       "mobile online store",
+      "switch between dark- and light-mode",
       "search the store for products, categories or brands",
       "filter by category, price and/or brand",
       "save your favorites for later use",
