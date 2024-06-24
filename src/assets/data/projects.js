@@ -21,7 +21,82 @@
 // },
 
 const projects = [
-  // 16 plant shop?
+  // 16 EventPilot
+  {
+    id: 16,
+    title: "Event Pilot",
+    workInProgress: false,
+    skills: [
+      // cloudinary
+      // google places and geocoding
+      {
+        img: "/img/Logos/nodejs.png",
+        alt: "Nodejs",
+      },
+      {
+        img: "/img/Logos/express.png",
+        alt: "Expressjs",
+      },
+      {
+        // mongoose?
+        img: "/img/Logos/mongodb.png",
+        alt: "mongodb",
+      },
+      {
+        img: "/img/Logos/react.png",
+        alt: "React",
+      },
+      {
+        img: "/img/Logos/html5.png",
+        alt: "HTML5",
+      },
+      {
+        img: "/img/Logos/css3.png",
+        alt: "CSS3",
+      },
+      {
+        img: "/img/Logos/tailwind.png",
+        alt: "Tailwind",
+      },
+    ],
+    image: "/img/Projects/eventpilot/eventpilot.jpg",
+    site: "https://eventpilot.superprojekte.de/",
+    repo: "https://github.com/thomaserdmenger/EventPilotMERN",
+    collaborators: [
+      {
+        name: "Thomas Erdmenger",
+        link: "https://github.com/thomaserdmenger",
+      },
+      {
+        name: "Icaro Boaventura",
+        link: "https://github.com/icaroboaventura",
+      },
+    ],
+    purposes: [
+      "mobile event app",
+      "register as a user and verify your email via six digit code",
+      "login with authorization and authentication",
+      "discover an explore page with trending events, upcoming events and events near you",
+      "create new event incl. image-upload, location-finder and date-picker",
+      "edit events",
+      "delete events with all corresponding bookmarks and registrations",
+      "follow other users",
+      "bookmark events",
+      "register for events",
+      "present your profile, events and reviews to others on your user page",
+      "edit your profile (image-upload, name, bio, interests)",
+      "delete your account",
+    ],
+    detailImages: [
+      "/img/Projects/eventpilot/eventpilot-signin-signup.jpg",
+      "/img/Projects/eventpilot/eventpilot-explore-registrations.jpg",
+      "/img/Projects/eventpilot/eventpilot-search.jpg",
+      "/img/Projects/eventpilot/eventpilot-add-edit-event.jpg",
+      "/img/Projects/eventpilot/eventpilot-hostprofile.jpg",
+      "/img/Projects/eventpilot/eventpilot-userprofile.jpg",
+      "/img/Projects/eventpilot/eventpilot-edit-user.jpg",
+    ],
+  },
   // 15 Chirpify
   {
     id: 15,
