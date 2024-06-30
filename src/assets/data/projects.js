@@ -61,7 +61,7 @@ const projects = [
     ],
     image: "/img/Projects/eventpilot/eventpilot.jpg",
     site: "https://eventpilot.superprojekte.de/",
-    repo: "https://github.com/thomaserdmenger/EventPilotMERN",
+    repo: "https://github.com/MiaMarmeladenbrot/EventPilot",
     collaborators: [
       {
         name: "Thomas Erdmenger",
