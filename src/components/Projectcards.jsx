@@ -59,7 +59,7 @@ const Projectcards = () => {
               <h2 className="mb-5 text-xl">{singleProject.title}</h2>
               <p className="mb-3"></p>
               <div className="flex flex-wrap gap-2 mb-10">
-                {singleProject.skills.map((item, index) => (
+                {singleProject.skills.slice(0,9).map((item, index) => (
                   <img
                     key={index}
                     className="h-7 object-contain	"
