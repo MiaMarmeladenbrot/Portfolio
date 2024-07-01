@@ -1,25 +1,3 @@
-// # IDs final vergeben und checken
-// # final befüllen - welche Felder werden wirklich benötigt?
-// # noch ein oder zwei responsive designs ergänzen
-// Vorlage:
-// {
-// id: 11,
-// title: "Portfolio",
-// workInProgress: true,
-// skills: [
-//   {
-//     img: "/img/Logos/react.png",
-//     alt: "React",
-//   },
-// ],
-// image: "/img/Projects/portfolio/portfolio.png",
-// site: "https://portfolio-three-lime-47.vercel.app/",
-// repo: "https://github.com/MiaMarmeladenbrot/Portfolio",
-// collaborators: [],
-// purposes: [],
-// detailImages: [],
-// },
-
 const projects = [
   // 16 EventPilot
   {
@@ -27,37 +5,50 @@ const projects = [
     title: "Event Pilot",
     workInProgress: false,
     skills: [
-      // cloudinary
-      // google places and geocoding
       {
-        img: "/img/Logos/nodejs.png",
+        img: "https://img.shields.io/badge/Node.js-black?style=for-the-badge&logo=Node.js&logoColor=%23339933",
         alt: "Nodejs",
       },
       {
-        img: "/img/Logos/express.png",
+        img: "https://img.shields.io/badge/Express-black?style=for-the-badge&logo=Express&logoColor=white",
         alt: "Expressjs",
       },
       {
-        // mongoose?
-        img: "/img/Logos/mongodb.png",
+        img: "https://img.shields.io/badge/MongoDB-black?style=for-the-badge&logo=MongoDB&logoColor=%2347A248",
         alt: "mongodb",
       },
       {
-        img: "/img/Logos/react.png",
+        img:"https://img.shields.io/badge/Mongoose-black?style=for-the-badge&logo=Mongoose&logoColor=%23880000",
+        alt: "mongoose"
+      },
+      {
+        img: "https://img.shields.io/badge/Cloudinary-black?style=for-the-badge&logo=Cloudinary&logoColor=%2346B2E8",
+        alt: "Cloudinary"
+      },
+      {
+        img: "https://img.shields.io/badge/React-black?style=for-the-badge&logo=React&logoColor=%2361DAFB",
         alt: "React",
       },
       {
-        img: "/img/Logos/html5.png",
+        img: "https://img.shields.io/badge/HTML5-black?style=for-the-badge&logo=HTML5&logoColor=%23E34F26",
         alt: "HTML5",
       },
       {
-        img: "/img/Logos/css3.png",
+        img: "https://img.shields.io/badge/CSS3-black?style=for-the-badge&logo=CSS3&logoColor=%231572B6",
         alt: "CSS3",
       },
       {
-        img: "/img/Logos/tailwind.png",
+        img: "https://img.shields.io/badge/TailwindCSS-black?style=for-the-badge&logo=TailwindCSS&logoColor=%2306B6D4",
         alt: "Tailwind",
       },
+      {
+        img: "https://img.shields.io/badge/Google%20Places%20API-black?style=for-the-badge&logo=Google&logoColor=%234285F4",
+        alt: "Google Places API"
+      },
+      {
+        img: "https://img.shields.io/badge/Google%20Geocoding%20API-black?style=for-the-badge&logo=Google&logoColor=%234285F4",
+        alt: "Google Geocoding API"
+      }
     ],
     image: "/img/Projects/eventpilot/eventpilot.jpg",
     site: "https://eventpilot.superprojekte.de/",
@@ -105,28 +96,31 @@ const projects = [
     hoverColor: "#1C9BF1",
     skills: [
       {
-        img: "/img/Logos/nodejs.png",
+        img: "https://img.shields.io/badge/Node.js-black?style=for-the-badge&logo=Node.js&logoColor=%23339933",
         alt: "Nodejs",
       },
       {
-        img: "/img/Logos/express.png",
+        img: "https://img.shields.io/badge/Express-black?style=for-the-badge&logo=Express&logoColor=white",
         alt: "Expressjs",
       },
       {
-        // mongoose?
-        img: "/img/Logos/mongodb.png",
+        img: "https://img.shields.io/badge/MongoDB-black?style=for-the-badge&logo=MongoDB&logoColor=%2347A248",
         alt: "mongodb",
       },
       {
-        img: "/img/Logos/react.png",
+        img:"https://img.shields.io/badge/Mongoose-black?style=for-the-badge&logo=Mongoose&logoColor=%23880000",
+        alt: "mongoose"
+      },
+      {
+        img: "https://img.shields.io/badge/React-black?style=for-the-badge&logo=React&logoColor=%2361DAFB",
         alt: "React",
       },
       {
-        img: "/img/Logos/html5.png",
+        img: "https://img.shields.io/badge/HTML5-black?style=for-the-badge&logo=HTML5&logoColor=%23E34F26",
         alt: "HTML5",
       },
       {
-        img: "/img/Logos/css3.png",
+        img: "https://img.shields.io/badge/CSS3-black?style=for-the-badge&logo=CSS3&logoColor=%231572B6",
         alt: "CSS3",
       },
     ],
@@ -170,28 +164,31 @@ const projects = [
     hoverColor: "#F26C6D",
     skills: [
       {
-        img: "/img/Logos/nodejs.png",
+        img: "https://img.shields.io/badge/Node.js-black?style=for-the-badge&logo=Node.js&logoColor=%23339933",
         alt: "Nodejs",
       },
       {
-        img: "/img/Logos/express.png",
+        img: "https://img.shields.io/badge/Express-black?style=for-the-badge&logo=Express&logoColor=white",
         alt: "Expressjs",
       },
       {
-        // mongoose?
-        img: "/img/Logos/mongodb.png",
+        img: "https://img.shields.io/badge/MongoDB-black?style=for-the-badge&logo=MongoDB&logoColor=%2347A248",
         alt: "mongodb",
       },
       {
-        img: "/img/Logos/react.png",
+        img:"https://img.shields.io/badge/Mongoose-black?style=for-the-badge&logo=Mongoose&logoColor=%23880000",
+        alt: "mongoose"
+      },
+      {
+        img: "https://img.shields.io/badge/React-black?style=for-the-badge&logo=React&logoColor=%2361DAFB",
         alt: "React",
       },
       {
-        img: "/img/Logos/html5.png",
+        img: "https://img.shields.io/badge/HTML5-black?style=for-the-badge&logo=HTML5&logoColor=%23E34F26",
         alt: "HTML5",
       },
       {
-        img: "/img/Logos/css3.png",
+        img: "https://img.shields.io/badge/CSS3-black?style=for-the-badge&logo=CSS3&logoColor=%231572B6",
         alt: "CSS3",
       },
     ],
@@ -225,19 +222,19 @@ const projects = [
     hoverColor: "#FDC434",
     skills: [
       {
-        img: "/img/Logos/react.png",
+        img: "https://img.shields.io/badge/React-black?style=for-the-badge&logo=React&logoColor=%2361DAFB",
         alt: "React",
       },
       {
-        img: "/img/Logos/html5.png",
+        img: "https://img.shields.io/badge/HTML5-black?style=for-the-badge&logo=HTML5&logoColor=%23E34F26",
         alt: "HTML5",
       },
       {
-        img: "/img/Logos/css3.png",
+        img: "https://img.shields.io/badge/CSS3-black?style=for-the-badge&logo=CSS3&logoColor=%231572B6",
         alt: "CSS3",
       },
       {
-        img: "/img/Logos/tailwind.png",
+        img: "https://img.shields.io/badge/TailwindCSS-black?style=for-the-badge&logo=TailwindCSS&logoColor=%2306B6D4",
         alt: "Tailwind",
       },
     ],
@@ -272,28 +269,28 @@ const projects = [
   //   title: "Fullstack Movie Database",
   //   workInProgress: true,
   //   skills: [
+  //  {
+  //    img: "https://img.shields.io/badge/Node.js-black?style=for-the-badge&logo=Node.js&logoColor=%23339933",
+  //    alt: "Nodejs",
+  //  },
+  // {
+  //   img: "https://img.shields.io/badge/Express-black?style=for-the-badge&logo=Express&logoColor=white",
+  //  alt: "Expressjs",
+  // },
+  // {
+  //  img: "https://img.shields.io/badge/MongoDB-black?style=for-the-badge&logo=MongoDB&logoColor=%2347A248",
+  //  alt: "mongodb",
+  // },
   //     {
-  //       img: "/img/Logos/nodejs.png",
-  //       alt: "Nodejs",
-  //     },
+   // img: "https://img.shields.io/badge/React-black?style=for-the-badge&logo=React&logoColor=%2361DAFB",
+   // alt: "React",
+  // },
   //     {
-  //       img: "/img/Logos/express.png",
-  //       alt: "Expressjs",
-  //     },
+  //  img: "https://img.shields.io/badge/HTML5-black?style=for-the-badge&logo=HTML5&logoColor=%23E34F26",
+  //  alt: "HTML5",
+ // },
   //     {
-  //       img: "/img/Logos/mongodb.png",
-  //       alt: "mongodb",
-  //     },
-  //     {
-  //       img: "/img/Logos/react.png",
-  //       alt: "React",
-  //     },
-  //     {
-  //       img: "/img/Logos/html5.png",
-  //       alt: "HTML5",
-  //     },
-  //     {
-  //       img: "/img/Logos/css3.png",
+  //       img: "https://img.shields.io/badge/CSS3-black?style=for-the-badge&logo=CSS3&logoColor=%231572B6",
   //       alt: "CSS3",
   //     },
   //   ],
@@ -322,15 +319,15 @@ const projects = [
     hoverColor: "#394FD4",
     skills: [
       {
-        img: "/img/Logos/react.png",
+        img: "https://img.shields.io/badge/React-black?style=for-the-badge&logo=React&logoColor=%2361DAFB",
         alt: "React",
       },
       {
-        img: "/img/Logos/html5.png",
+        img: "https://img.shields.io/badge/HTML5-black?style=for-the-badge&logo=HTML5&logoColor=%23E34F26",
         alt: "HTML5",
       },
       {
-        img: "/img/Logos/css3.png",
+        img: "https://img.shields.io/badge/CSS3-black?style=for-the-badge&logo=CSS3&logoColor=%231572B6",
         alt: "CSS3",
       },
     ],
@@ -381,16 +378,15 @@ const projects = [
     workInProgress: false,
     skills: [
       {
-        img: "/img/Logos/react.png",
+        img: "https://img.shields.io/badge/React-black?style=for-the-badge&logo=React&logoColor=%2361DAFB",
         alt: "React",
       },
       {
-        img: "/img/Logos/html5.png",
-
+        img: "https://img.shields.io/badge/HTML5-black?style=for-the-badge&logo=HTML5&logoColor=%23E34F26",
         alt: "HTML5",
       },
       {
-        img: "/img/Logos/css3.png",
+        img: "https://img.shields.io/badge/CSS3-black?style=for-the-badge&logo=CSS3&logoColor=%231572B6",
 
         alt: "CSS3",
       },
@@ -435,15 +431,15 @@ const projects = [
     workInProgress: false,
     skills: [
       {
-        img: "/img/Logos/react.png",
+        img: "https://img.shields.io/badge/React-black?style=for-the-badge&logo=React&logoColor=%2361DAFB",
         alt: "React",
       },
       {
-        img: "/img/Logos/html5.png",
+        img: "https://img.shields.io/badge/HTML5-black?style=for-the-badge&logo=HTML5&logoColor=%23E34F26",
         alt: "HTML5",
       },
       {
-        img: "/img/Logos/css3.png",
+        img: "https://img.shields.io/badge/CSS3-black?style=for-the-badge&logo=CSS3&logoColor=%231572B6",
         alt: "CSS3",
       },
     ],
@@ -489,17 +485,15 @@ const projects = [
     workInProgress: false,
     skills: [
       {
-        img: "/img/Logos/js.png",
+        img: "https://img.shields.io/badge/JavaScript-black?style=for-the-badge&logo=JavaScript&logoColor=%23F7DF1E",
         alt: "Javascript",
       },
       {
-        img: "/img/Logos/html5.png",
-
+        img: "https://img.shields.io/badge/HTML5-black?style=for-the-badge&logo=HTML5&logoColor=%23E34F26",
         alt: "HTML5",
       },
       {
-        img: "/img/Logos/css3.png",
-
+        img: "https://img.shields.io/badge/CSS3-black?style=for-the-badge&logo=CSS3&logoColor=%231572B6",
         alt: "CSS3",
       },
     ],
@@ -528,16 +522,15 @@ const projects = [
     workInProgress: false,
     skills: [
       {
-        img: "/img/Logos/js.png",
+        img: "https://img.shields.io/badge/JavaScript-black?style=for-the-badge&logo=JavaScript&logoColor=%23F7DF1E",
         alt: "Javascript",
       },
       {
-        img: "/img/Logos/html5.png",
-
+        img: "https://img.shields.io/badge/HTML5-black?style=for-the-badge&logo=HTML5&logoColor=%23E34F26",
         alt: "HTML5",
       },
       {
-        img: "/img/Logos/css3.png",
+        img: "https://img.shields.io/badge/CSS3-black?style=for-the-badge&logo=CSS3&logoColor=%231572B6",
 
         alt: "CSS3",
       },
@@ -570,22 +563,20 @@ const projects = [
     workInProgress: false,
     skills: [
       {
-        img: "/img/Logos/react.png",
+        img: "https://img.shields.io/badge/React-black?style=for-the-badge&logo=React&logoColor=%2361DAFB",
         alt: "React",
       },
-
       {
-        img: "/img/Logos/html5.png",
-
+        img: "https://img.shields.io/badge/HTML5-black?style=for-the-badge&logo=HTML5&logoColor=%23E34F26",
         alt: "HTML5",
       },
       {
-        img: "/img/Logos/css3.png",
+        img: "https://img.shields.io/badge/CSS3-black?style=for-the-badge&logo=CSS3&logoColor=%231572B6",
 
         alt: "CSS3",
       },
       {
-        img: "/img/Logos/tailwind.png",
+        img: "https://img.shields.io/badge/TailwindCSS-black?style=for-the-badge&logo=TailwindCSS&logoColor=%2306B6D4",
         alt: "Tailwind",
       },
     ],
@@ -616,15 +607,15 @@ const projects = [
     workInProgress: false,
     skills: [
       {
-        img: "/img/Logos/react.png",
+        img: "https://img.shields.io/badge/React-black?style=for-the-badge&logo=React&logoColor=%2361DAFB",
         alt: "React",
       },
       {
-        img: "/img/Logos/html5.png",
+        img: "https://img.shields.io/badge/HTML5-black?style=for-the-badge&logo=HTML5&logoColor=%23E34F26",
         alt: "HTML5",
       },
       {
-        img: "/img/Logos/css3.png",
+        img: "https://img.shields.io/badge/CSS3-black?style=for-the-badge&logo=CSS3&logoColor=%231572B6",
         alt: "CSS3",
       },
     ],
@@ -663,16 +654,15 @@ const projects = [
     workInProgress: false,
     skills: [
       {
-        img: "/img/Logos/js.png",
+        img: "https://img.shields.io/badge/JavaScript-black?style=for-the-badge&logo=JavaScript&logoColor=%23F7DF1E",
         alt: "Javascript",
       },
       {
-        img: "/img/Logos/html5.png",
-
+        img: "https://img.shields.io/badge/HTML5-black?style=for-the-badge&logo=HTML5&logoColor=%23E34F26",
         alt: "HTML5",
       },
       {
-        img: "/img/Logos/css3.png",
+        img: "https://img.shields.io/badge/CSS3-black?style=for-the-badge&logo=CSS3&logoColor=%231572B6",
 
         alt: "CSS3",
       },
@@ -703,16 +693,15 @@ const projects = [
     workInProgress: false,
     skills: [
       {
-        img: "/img/Logos/js.png",
+        img: "https://img.shields.io/badge/JavaScript-black?style=for-the-badge&logo=JavaScript&logoColor=%23F7DF1E",
         alt: "Javascript",
       },
       {
-        img: "/img/Logos/html5.png",
-
+        img: "https://img.shields.io/badge/HTML5-black?style=for-the-badge&logo=HTML5&logoColor=%23E34F26",
         alt: "HTML5",
       },
       {
-        img: "/img/Logos/css3.png",
+        img: "https://img.shields.io/badge/CSS3-black?style=for-the-badge&logo=CSS3&logoColor=%231572B6",
 
         alt: "CSS3",
       },
@@ -741,12 +730,11 @@ const projects = [
     workInProgress: false,
     skills: [
       {
-        img: "/img/Logos/html5.png",
-
+        img: "https://img.shields.io/badge/HTML5-black?style=for-the-badge&logo=HTML5&logoColor=%23E34F26",
         alt: "HTML5",
       },
       {
-        img: "/img/Logos/css3.png",
+        img: "https://img.shields.io/badge/CSS3-black?style=for-the-badge&logo=CSS3&logoColor=%231572B6",
 
         alt: "CSS3",
       },
