@@ -38,6 +38,10 @@ const projects = [
         alt: "CSS3",
       },
       {
+        img: "https://img.shields.io/badge/MUI-black?style=for-the-badge&logo=Mui&logoColor=%230081CB",
+        alt:"MUI"
+      },
+      {
         img: "https://img.shields.io/badge/TailwindCSS-black?style=for-the-badge&logo=TailwindCSS&logoColor=%2306B6D4",
         alt: "Tailwind",
       },

@@ -4,7 +4,6 @@ Live Site: https://mias-portfolio.vercel.app/
 
 # ToDos
 
-- Detailseite an ThinkPad größe anpassen
 - ProjectDetails: Swiper-Galerie noch in Tailwind übertragen
 - Schatten unter Project Cards an Ecken anpassen - und an Farben? => geht für chirpify, aber für die anderen noch nicht - why?
 - noch mehr Projekte als responsive Projekte umsetzen?
