@@ -55,7 +55,7 @@ const projects = [
       }
     ],
     image: "/img/Projects/eventpilot/eventpilot.jpg",
-    site: "https://eventpilot.superprojekte.de/",
+    site: "https://event-pilot.org/",
     repo: "https://github.com/MiaMarmeladenbrot/EventPilot",
     collaborators: [
       {
