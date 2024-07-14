@@ -32,13 +32,6 @@ const ProjectDetails = () => {
           ) : (
             ""
           )}
-
-          {/* <img
-            // className="w-[500px]"
-            className="max-w-xl"
-            src={projectDetails?.detailImages[0]}
-            alt={projectDetails?.title}
-          /> */}
           <DetailsGalery projectDetails={projectDetails} />
         </div>
 
@@ -74,7 +67,6 @@ const ProjectDetails = () => {
           <div className="flex gap-4 mb-8 flex-wrap max-w-sm">
             {projectDetails?.skills.map((singleSkill, index) => (
               <img
-                className="w-20"
                 key={index}
                 src={singleSkill.img}
                 alt={singleSkill.alt}
