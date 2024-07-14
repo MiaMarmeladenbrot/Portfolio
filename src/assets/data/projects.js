@@ -222,7 +222,7 @@ const projects = [
   {
     id: 11,
     title: "Portfolio",
-    workInProgress: true,
+    workInProgress: false,
     hoverColor: "#FDC434",
     skills: [
       {
