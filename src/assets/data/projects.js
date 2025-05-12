@@ -1,4 +1,7 @@
 const projects = [
+  // Silas Seite
+  // Silas AR
+  // 7fridays
   // 16 EventPilot
   {
     id: 16,
@@ -18,12 +21,12 @@ const projects = [
         alt: "mongodb",
       },
       {
-        img:"https://img.shields.io/badge/Mongoose-black?style=for-the-badge&logo=Mongoose&logoColor=%23880000",
-        alt: "mongoose"
+        img: "https://img.shields.io/badge/Mongoose-black?style=for-the-badge&logo=Mongoose&logoColor=%23880000",
+        alt: "mongoose",
       },
       {
         img: "https://img.shields.io/badge/Cloudinary-black?style=for-the-badge&logo=Cloudinary&logoColor=%2346B2E8",
-        alt: "Cloudinary"
+        alt: "Cloudinary",
       },
       {
         img: "https://img.shields.io/badge/React-black?style=for-the-badge&logo=React&logoColor=%2361DAFB",
@@ -39,7 +42,7 @@ const projects = [
       },
       {
         img: "https://img.shields.io/badge/MUI-black?style=for-the-badge&logo=Mui&logoColor=%230081CB",
-        alt:"MUI"
+        alt: "MUI",
       },
       {
         img: "https://img.shields.io/badge/TailwindCSS-black?style=for-the-badge&logo=TailwindCSS&logoColor=%2306B6D4",
@@ -47,12 +50,12 @@ const projects = [
       },
       {
         img: "https://img.shields.io/badge/Google%20Places%20API-black?style=for-the-badge&logo=Google&logoColor=%234285F4",
-        alt: "Google Places API"
+        alt: "Google Places API",
       },
       {
         img: "https://img.shields.io/badge/Google%20Geocoding%20API-black?style=for-the-badge&logo=Google&logoColor=%234285F4",
-        alt: "Google Geocoding API"
-      }
+        alt: "Google Geocoding API",
+      },
     ],
     image: "/img/Projects/eventpilot/eventpilot.jpg",
     site: "https://event-pilot.org/",
@@ -112,8 +115,8 @@ const projects = [
         alt: "mongodb",
       },
       {
-        img:"https://img.shields.io/badge/Mongoose-black?style=for-the-badge&logo=Mongoose&logoColor=%23880000",
-        alt: "mongoose"
+        img: "https://img.shields.io/badge/Mongoose-black?style=for-the-badge&logo=Mongoose&logoColor=%23880000",
+        alt: "mongoose",
       },
       {
         img: "https://img.shields.io/badge/React-black?style=for-the-badge&logo=React&logoColor=%2361DAFB",
@@ -180,8 +183,8 @@ const projects = [
         alt: "mongodb",
       },
       {
-        img:"https://img.shields.io/badge/Mongoose-black?style=for-the-badge&logo=Mongoose&logoColor=%23880000",
-        alt: "mongoose"
+        img: "https://img.shields.io/badge/Mongoose-black?style=for-the-badge&logo=Mongoose&logoColor=%23880000",
+        alt: "mongoose",
       },
       {
         img: "https://img.shields.io/badge/React-black?style=for-the-badge&logo=React&logoColor=%2361DAFB",
@@ -286,13 +289,13 @@ const projects = [
   //  alt: "mongodb",
   // },
   //     {
-   // img: "https://img.shields.io/badge/React-black?style=for-the-badge&logo=React&logoColor=%2361DAFB",
-   // alt: "React",
+  // img: "https://img.shields.io/badge/React-black?style=for-the-badge&logo=React&logoColor=%2361DAFB",
+  // alt: "React",
   // },
   //     {
   //  img: "https://img.shields.io/badge/HTML5-black?style=for-the-badge&logo=HTML5&logoColor=%23E34F26",
   //  alt: "HTML5",
- // },
+  // },
   //     {
   //       img: "https://img.shields.io/badge/CSS3-black?style=for-the-badge&logo=CSS3&logoColor=%231572B6",
   //       alt: "CSS3",
@@ -541,7 +544,7 @@ const projects = [
     ],
     features: [],
     image: "/img/Projects/kunterbunt/kunterbunt.jpg",
-    site: "https://www.kunterbunt-friesoythe.com/",
+    site: "https://kunterbunt.vercel.app/",
     repo: "https://github.com/MiaMarmeladenbrot/kunterbunt",
     collaborators: [],
     purposes: [
