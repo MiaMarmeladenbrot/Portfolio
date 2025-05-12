@@ -549,7 +549,8 @@ const projects = [
     collaborators: [],
     purposes: [
       "responsive design",
-      "website for child's daycare",
+      "animated balloons",
+      "website for children's daycare",
       "show information about the facility, the concept and the educator",
       "show contact information",
     ],
